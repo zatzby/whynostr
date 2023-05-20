@@ -14,63 +14,10 @@
       </div>
       <div>
         <h2>Because it is</h2>
-        <div class="text-container">
-          <script>
-           const words = [
-              'decentralized',
-              'free',
-              'weird',
-              'different',
-              'connective',
-              'equalizing',
-              'community',
-              'global',
-              'borderless',
-              'infinite',
-              'peer-to-peer',
-              'encrypted',
-              'secure',
-              'fun',
-              'engaging',
-              'algorithm-free',
-              'us',
-              'pura vida',
-              'ours',
-              'growing',
-              'evolving',
-              'liberating',
-              
-            ];
-
-            let randomizedWords = shuffleArray(words);
-            let currentIndex = 0;
-            document.querySelector('.text-container').textContent =
-              randomizedWords[currentIndex];
-
-            setInterval(() => {
-              currentIndex = (currentIndex + 1) % randomizedWords.length;
-              document.querySelector('.text-container').textContent =
-                randomizedWords[currentIndex];
-            }, 2100);
-
-            function shuffleArray(array) {
-              let currentIndex = array.length;
-              let temporaryValue, randomIndex;
-
-              while (currentIndex !== 0) {
-                randomIndex = Math.floor(Math.random() * currentIndex);
-                currentIndex--;
-                temporaryValue = array[currentIndex];
-                array[currentIndex] = array[randomIndex];
-                array[randomIndex] = temporaryValue;
-              }
-
-              return array;
-            }
-          </script>
-        </div>
+        <div class="text-container"></div>
       </div>
       <div class="made-with-passion">Fueled with passion 🤙</div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
