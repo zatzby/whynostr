@@ -2,59 +2,7 @@
 <html>
   <head>
     <title>Why Nostr?</title>
-    <style>
-      body {
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 100vh;
-        font-family: Arial, sans-serif;
-      }
-      h1 {
-        color: purple;
-        font-size: 5em;
-        margin-bottom: 69px;
-        vertical-align: middle;
-      }
-      h2 {
-        color: purple;
-        font-size: 4em;
-        margin-right: 20px;
-        margin-bottom: 20px;
-      }
-      .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .text-container {
-        font-size: 4em;
-        color: orangered;
-        margin-bottom: 69px;
-      }
-      .badge {
-        position: absolute;
-        top: 34.5px;
-        right: 34.5px;
-        width: 111px;
-        height: 111px;
-        border-radius: 50%;
-        overflow: hidden;
-      }
-      .badge img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .made-with-passion {
-        position: absolute;
-        bottom: 20px;
-        font-size: 3em;
-        color: purple;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <div class="badge">
@@ -68,57 +16,7 @@
         <h2>Because it is</h2>
         <div class="text-container">
           <script>
-            const words = [
-              'decentralized',
-              'free',
-              'weird',
-              'different',
-              'connective',
-              'equalizing',
-              'community',
-              'global',
-              'borderless',
-              'infinite',
-              'peer-to-peer',
-              'encrypted',
-              'secure',
-              'fun',
-              'engaging',
-              'algorithm-free',
-              'us',
-              'pura vida',
-              'ours',
-              'growing',
-              'evolving',
-              'liberating',
-              
-            ];
-
-            let randomizedWords = shuffleArray(words);
-            let currentIndex = 0;
-            document.querySelector('.text-container').textContent =
-              randomizedWords[currentIndex];
-
-            setInterval(() => {
-              currentIndex = (currentIndex + 1) % randomizedWords.length;
-              document.querySelector('.text-container').textContent =
-                randomizedWords[currentIndex];
-            }, 2100);
-
-            function shuffleArray(array) {
-              let currentIndex = array.length;
-              let temporaryValue, randomIndex;
-
-              while (currentIndex !== 0) {
-                randomIndex = Math.floor(Math.random() * currentIndex);
-                currentIndex--;
-                temporaryValue = array[currentIndex];
-                array[currentIndex] = array[randomIndex];
-                array[randomIndex] = temporaryValue;
-              }
-
-              return array;
-            }
+            // JavaScript code here
           </script>
         </div>
       </div>
