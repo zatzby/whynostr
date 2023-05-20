@@ -43,4 +43,4 @@ updateText();
 setInterval(() => {
   currentIndex = (currentIndex + 1) % words.length;
   updateText();
-}, 2100);
+}, 1111);
