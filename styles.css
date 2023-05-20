@@ -1,0 +1,115 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: purple;
+  font-size: 5em;
+  margin-bottom: 69px;
+  vertical-align: middle;
+}
+
+h2 {
+  color: purple;
+  font-size: 4em;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-container {
+  font-size: 4em;
+  color: orangered;
+  margin-bottom: 69px;
+}
+
+.badge {
+  position: absolute;
+  top: 34.5px;
+  right: 34.5px;
+  width: 111px;
+  height: 111px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.badge img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.made-with-passion {
+  position: absolute;
+  bottom: 20px;
+  font-size: 3em;
+  color: purple;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 4em;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+
+  .text-container {
+    font-size: 3em;
+    margin-bottom: 40px;
+  }
+
+  .badge {
+    top: 17.25px;
+    right: 17.25px;
+    width: 74px;
+    height: 74px;
+  }
+
+  .made-with-passion {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+  .text-container {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  .badge {
+    top: 11.5px;
+    right: 11.5px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .made-with-passion {
+    font-size: 1.5em;
+  }
+}
