@@ -70,6 +70,28 @@ var websites = {
     },
   ],
 
+  Relays: [
+    {
+      url: 'https://www.nostr.land/',
+      descriptor: 'nostr.land',
+      description: 'Where relays evolve.',
+    },
+    {
+      url: 'https://nostr.watch/',
+      descriptor: 'nostr.watch',
+      description: 'Explore public and private relays.',
+    },
+    {
+      url: 'https://relayable.org/?utm_source=nostrich.fun',
+      descriptor: 'relayable.org',
+      description: 'A latency optimizing network of global relays.',
+    },
+    {
+      url: 'https://relay.exchange/',
+      descriptor: 'relay.exchange',
+      description: 'Paid Relay Service Providers comparison table',
+    },
+  ],
   Social: [
     {
       url: 'https://badges.page/',
@@ -120,9 +142,14 @@ var websites = {
       description: 'A tool to help you find nostr notes',
     },
     {
-      url: 'https://nostrends.vercel.app/',
-      descriptor: 'nostrends.vercel.app',
-      description: "What's trending on Nostr?",
+      url: 'https://nak.nostr.com/',
+      descriptor: 'nak.nostr.com',
+      description: 'Generate events and keypairs.',
+    },
+    {
+      url: 'https://nostr-delete.vercel.app/',
+      descriptor: 'nostr-delete',
+      description: 'Delete Nostr events.',
     },
     {
       url: 'https://www.nostr.guru/',
@@ -130,19 +157,45 @@ var websites = {
       description: 'A gateway to convert nostr events to html pages',
     },
     {
+      url: 'https://nostr.io/',
+      descriptor: 'nostr.io',
+      description: 'Access Nostr statistics via REST API.',
+    },
+    {
+      url: 'https://www.nostr.rest/',
+      descriptor: 'nostr.rest',
+      description: 'A browser-based vanity key generator.',
+    },
+    {
+      url: 'https://nostrcheck.me/converter/',
+      descriptor: 'nostrcheck.me/converter',
+      description: 'Key converter.',
+    },
+    {
+      url: 'https://nostryfied.online/',
+      descriptor: 'nostryfied.online',
+      description: 'A backup service for your data.',
+    },
+    {
+      url: 'https://hitony.com/nostrogen/',
+      descriptor: 'nostrogen',
+      description: 'A browser-based vanity key generator.',
+    },
+    {
+      url: 'https://nostrsites.com/',
+      descriptor: 'nostrsites.com',
+      description: 'Convert your Nostr note into a personal webpage.',
+    },
+    {
       url: 'https://nostrstuff.com/',
       descriptor: 'nostrstuff.com',
       description: 'A browser-based CLI tool to explore Nostr.',
     },
     {
-      url: 'https://nak.nostr.com/',
-      descriptor: 'Generate events and keypairs.',
-      description: 'filler',
-    },
-    {
-      url: 'https://nostryfied.online/',
-      descriptor: 'Backup service for your data',
-      description: 'filler',
+      url: 'https://nostrtool.com/',
+      descriptor: 'nostrtool.com',
+      description:
+        'A browser based testing ground for key generation, NIP-26 delegation, and more.',
     },
     {
       url: 'https://github.com/grunch/rana',
@@ -150,38 +203,11 @@ var websites = {
       description: 'CLI based vanity key generator',
     },
     {
-      url: 'https://hitony.com/nostrogen/',
-      descriptor: 'nostrogen',
-      description: 'Browser-based vanity key generator.',
-    },
-    {
-      url: 'https://www.nostr.rest/',
-      descriptor: 'nostr.rest',
-      description: 'Browser-based vanity key generator.',
-    },
-
-    {
       url: 'https://zaplinks.lol/',
       descriptor: 'zaplinks.lol',
       description: 'Create a zaplink.',
     },
-    {
-      url: 'https://nostr.watch/',
-      descriptor: 'nostr.watch',
-      description: 'Explore public and private relays.',
-    },
-    {
-      url: 'https://nostrcheck.me/converter/',
-      descriptor: 'nostrcheck.me/converter',
-      description: 'Key converter, and other site features.',
-    },
-    {
-      url: 'https://nostr-delete.vercel.app/',
-      descriptor: 'nostr-delete.vercel.app',
-      description: 'Delete Nostr events.',
-    },
   ],
-
   'Writing/Curating': [
     {
       url: 'https://blogstack.io/',
