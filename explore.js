@@ -44,7 +44,7 @@ var websites = {
     {
       url: 'https://nostr.build/',
       descriptor: 'nostr.build',
-      description: 'Free media uploader with creator account options.',
+      description: 'A free media uploader and hosting platform for all things Nostr.',
     },
     {
       url: 'https://nostrcheck.me/public/',
@@ -127,6 +127,11 @@ var websites = {
       url: 'https://vida.page/',
       descriptor: 'vida.page',
       description: 'Connect via paid messages, calls and live streams.',
+    },
+    {
+      url: 'https://zapddit.com/',
+      descriptor: 'zapddit.com',
+      description: 'A reddit-styled Nostr client for following topics.'
     },
     {
       url: 'https://zaplife.lol/',
