@@ -34,6 +34,11 @@ var websites = {
       description: 'Connect via paid messages, calls and live streams.',
     },
     {
+      url: 'https://www.wavman.app/',
+      descriptor: 'wavman.app',
+      description: 'An open-source music player built for Nostr.',
+    }
+    {
       url: 'https://zapstr.live/',
       descriptor: 'zapstr.live',
       description: 'Sign in, listen, upload and chat.',
@@ -152,6 +157,11 @@ var websites = {
       description: 'Generate events and keypairs.',
     },
     {
+url: 'https://nashboard.space/',
+descriptor: 'nashboard.space',
+description: 'A Nostr network dashboard.',
+}
+    {
       url: 'https://nostr-delete.vercel.app/',
       descriptor: 'nostr-delete',
       description: 'Delete Nostr events.',
@@ -161,6 +171,11 @@ var websites = {
       descriptor: 'nostr.guru',
       description: 'A gateway to convert nostr events to html pages',
     },
+    {
+url: 'https://nostrit.com/',
+descriptor: 'nostrit.com',
+description: 'Publish your note when something happens.',
+}    
     {
       url: 'https://nostr.io/',
       descriptor: 'nostr.io',
