@@ -17,6 +17,7 @@ document.addEventListener('click', event => {
 });
 
 var websites = {
+  
   Audio: [
     {
       url: 'https://www.fountain.fm/',
@@ -37,7 +38,7 @@ var websites = {
       url: 'https://www.wavman.app/',
       descriptor: 'wavman.app',
       description: 'An open-source music player built for Nostr.',
-    }
+    },
     {
       url: 'https://zapstr.live/',
       descriptor: 'zapstr.live',
@@ -45,7 +46,26 @@ var websites = {
     },
   ],
 
-  'Media Hosting': [
+  Games: [
+    {
+      url: 'https://jesterui.github.io/',
+      descriptor: 'jesterui',
+      description: 'Play Chess over Nostr.',
+    },
+  {
+      url: 'https://triviamasters.social/',
+      descriptor: 'triviamasters.social',
+      description: 'A Trivia Nostr bot with Bitcoin prizes.',
+    },  
+  {
+      url: 'https://winemasters.social/',
+      descriptor: 'winemasters.social',
+      description: 'A Wine Trivia Nostr bot with Bitcoin prizes.',
+    },
+    
+    ],
+  
+  "Media Hosting": [
     {
       url: 'https://nostr.build/',
       descriptor: 'nostr.build',
@@ -75,6 +95,67 @@ var websites = {
     },
   ],
 
+  "Newly Added": [
+  {
+      url: 'https://nashboard.space/',
+      descriptor: 'nashboard.space',
+      description: 'A Nostr network dashboard.',
+    },
+  {
+      url: 'https://listr.lol/',
+      descriptor: 'listr.lol',
+      description: 'A simple tool that allows you to browse and manage lists.',
+    },
+  {
+      url: 'https://nostrfreaks.com/',
+      descriptor: 'nostrfreaks.com',
+      description: 'Add multiple Nostr sites to a single browser window.',
+    },
+     {
+      url: 'https://www.zapit.live/',
+      descriptor: 'zapit.live',
+      description: 'Put any content behind a Bitcoin lightning paywall.',
+    },
+  
+    {
+      url: 'https://nostrit.com/',
+      descriptor: 'nostrit.com',
+      description: 'Publish your note when something happens.',
+    },
+  {
+    url: 'https://zap.stream/',
+    descriptor: 'zap.stream',
+    description: 'A Nostr native streaming provider.',
+  },
+    {
+      url: 'https://www.wavman.app/',
+      descriptor: 'wavman.app',
+      description: 'An open-source music player built for Nostr.',
+    },
+    {
+      url: 'https://nostr.do/',
+      descriptor: 'nostr.do',
+      description: 'Share Nostr invites with everyone!',
+    },
+        {
+      url: 'https://jesterui.github.io/',
+      descriptor: 'jesterui',
+      description: 'Play Chess over Nostr.',
+    },
+  {
+      url: 'https://winemasters.social/',
+      descriptor: 'winemasters.social',
+      description: 'A Wine Trivia Nostr bot with Bitcoin prizes.',
+    },
+    
+  {
+      url: 'https://triviamasters.social/',
+      descriptor: 'triviamasters.social',
+      description: 'A Trivia Nostr bot with Bitcoin prizes.',
+    },  
+    
+  ],
+  
   Relays: [
     {
       url: 'https://www.nostr.land/',
@@ -119,6 +200,11 @@ var websites = {
       description: 'Find your Twitter follows on Nostr.',
     },
     {
+      url: 'https://nostr.do/',
+      descriptor: 'nostr.do',
+      description: 'Share Nostr invites with everyone!',
+    },
+    {
       url: 'https://nostrends.vercel.app/',
       descriptor: 'nostrends.vercel.app',
       description: "What's trending on Nostr?",
@@ -146,8 +232,8 @@ var websites = {
   {
     url: 'https://zap.stream/',
     descriptor: 'zap.stream',
-    description: 'A Nostr native streaming provider.",
-  }
+    description: 'A Nostr native streaming provider.',
+  },
   ],
 
   Tools: [
@@ -160,21 +246,26 @@ var websites = {
       url: 'https://listr.lol/',
       descriptor: 'listr.lol',
       description: 'A simple tool that allows you to browse and manage lists.',
-    }
+    },
     {
       url: 'https://nak.nostr.com/',
       descriptor: 'nak.nostr.com',
       description: 'Generate events and keypairs.',
     },
     {
-url: 'https://nashboard.space/',
-descriptor: 'nashboard.space',
-description: 'A Nostr network dashboard.',
-}
+      url: 'https://nashboard.space/',
+      descriptor: 'nashboard.space',
+      description: 'A Nostr network dashboard.',
+    },
     {
       url: 'https://nostr-delete.vercel.app/',
       descriptor: 'nostr-delete',
       description: 'Delete Nostr events.',
+    },
+    {
+      url: 'https://nostrfreaks.com/',
+      descriptor: 'nostrfreaks.com',
+      description: 'Add multiple Nostr sites to a single browser window.',
     },
     {
       url: 'https://www.nostr.guru/',
@@ -182,10 +273,10 @@ description: 'A Nostr network dashboard.',
       description: 'A gateway to convert nostr events to html pages',
     },
     {
-url: 'https://nostrit.com/',
-descriptor: 'nostrit.com',
-description: 'Publish your note when something happens.',
-}    
+      url: 'https://nostrit.com/',
+      descriptor: 'nostrit.com',
+      description: 'Publish your note when something happens.',
+    },    
     {
       url: 'https://nostr.io/',
       descriptor: 'nostr.io',
@@ -231,6 +322,11 @@ description: 'Publish your note when something happens.',
       url: 'https://github.com/grunch/rana',
       descriptor: 'rana',
       description: 'CLI based vanity key generator',
+    },
+    {
+      url: 'https://www.zapit.live/',
+      descriptor: 'zapit.live',
+      description: 'Put any content behind a Bitcoin lightning paywall.',
     },
     {
       url: 'https://zaplinks.lol/',
