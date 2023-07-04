@@ -1,5 +1,6 @@
 # whynostr...
-...because it is us.
+
+...because it is fun, free, weird, new, evolving, and ours.
 
 This is an attempt to make Nostr accessible for the masses. A friendly, easy to navigate interface where new and existing users can find the applications that interest them the most.
 
