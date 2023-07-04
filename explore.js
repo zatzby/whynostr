@@ -143,6 +143,11 @@ var websites = {
       descriptor: 'zaplife.lol',
       description: "Real-time zap stream - discover who's zapping whom.",
     },
+  {
+    url: 'https://zap.stream/',
+    descriptor: 'zap.stream',
+    description: 'A Nostr native streaming provider.",
+  }
   ],
 
   Tools: [
@@ -151,6 +156,11 @@ var websites = {
       descriptor: 'advanced nostr search',
       description: 'A tool to help you find nostr notes',
     },
+    {
+      url: 'https://listr.lol/',
+      descriptor: 'listr.lol',
+      description: 'A simple tool that allows you to browse and manage lists.',
+    }
     {
       url: 'https://nak.nostr.com/',
       descriptor: 'nak.nostr.com',
