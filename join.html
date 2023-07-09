@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Why Nostr?</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="new_join.css" />
   </head>
   <body>
     <div class="badge">
@@ -16,86 +16,21 @@
         <li><a href="index.html">Home</a></li>
       </ul>
     </div>
-    <div class="container">
-      <h1>Find the right client</h1>
-      <ul class="column">
-        <li class="orange">
-          <img src="icon/apple-logo.svg" alt="Apple logo" />
-          <h4>iOS</h4>
-        </li>
-        <li>
-          <img src="icon/damus-logo.svg" alt="Damus logo" />
-          <a href="https://damus.io/"><h4>Damus</h4></a>
-        </li>
-        <li>
-          <img src="icon/iris-logo.png" alt="Iris logo" />
-          <a
-            href="https://apps.apple.com/us/app/iris-the-nostr-client/id1665849007"
-            ><h4>Iris</h4></a
-          >
-        </li>
+    <h2>Find your client and join Nostr</h2>
+    <div class="dropdown-container">
+      <select id="websiteDropdown" onchange="showSelectedWebsite()">
+        <option>Select your platform</option>
+        <option>Android</option>
+        <option>iOS</option>
+        <option>Web</option>
+      </select>
 
-        <li>
-          <img src="icon/plebstr-logo.webp" alt="Plebstr logo" />
-          <a href="https://apps.apple.com/app/plebstr-nostr-client/id1666230916"
-            ><h4>Plebstr</h4></a
-          >
-        </li>
-      </ul>
-
-      <!-- New List for Android apps-->
-
-      <ul class="column">
-        <li class="orange">
-          <img src="icon/android-logo.svg" alt="Android Logo" />
-          <h4>Android</h4>
-        </li>
-        <li>
-          <img src="icon/amethyst-logo.svg" alt="Amethyst logo" />
-          <a
-            href="https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst"
-            ><h4>Amethyst</h4></a
-          >
-        </li>
-        <li>
-          <img src="icon/iris-logo.png" alt="Iris logo" />
-          <a
-            href="https://play.google.com/store/apps/details?id=to.iris.twa&hl=en_US&gl=US"
-            ><h4>Iris</h4></a
-          >
-        </li>
-        <li>
-          <img src="icon/plebstr-logo.webp" alt="Plebstr logo" />
-          <a
-            href="https://play.google.com/store/apps/details?id=com.plebstr.client"
-            ><h4>Plebstr</h4></a
-          >
-        </li>
-      </ul>
-
-      <!-- New list For browser clients-->
-      <!--  -->
-
-      <ul class="column">
-        <li class="orange">
-          <img src="icon/www-browser.png" alt="Web browser logo" />
-          <h4>Web Browser</h4>
-        </li>
-        <li>
-          <img src="icon/primal-logo.svg" alt="Primal Logo" />
-          <a href="https://primal.net/"><h4>Primal</h4></a>
-        </li>
-        <li>
-          <img src="icon/iris-logo.png" alt="Iris logo" />
-          <a href="https://iris.to/"><h4>Iris</h4></a>
-        </li>
-        <li>
-          <img src="icon/snort-logo.png" alt="Snort Social logo" />
-          <a href="https://snort.social/"><h4>Snort Social</h4></a>
-        </li>
-      </ul>
+      <div id="selectedWebsite"></div>
     </div>
-    <footer>Fueled with Passion &#x1F919;</footer>
-    <script src="learn.js"></script>
+    <footer>Fueled by Coffee</footer>
+    <script src="new_join.js"></script>
+  <footer>Fueled with Passion &#x1F919;</footer>
   </body>
 </html>
+
+
