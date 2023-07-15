@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-  background-color: white;
+  background-color: #F5f5f5;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
@@ -20,7 +20,7 @@ body {
 /* Heading Styles */
 h1,
 h2 {
-  color: purple;
+  color: #5D3891;
   margin: 0;
 }
 
@@ -38,7 +38,7 @@ h2 {
 /* Text Styles */
 .text-container,
 p {
-  color: orangered;
+  color: #F99417;
   font-size: 3em;
   margin: 20px;
   padding-top: 25px;
@@ -47,14 +47,14 @@ p {
 }
 
 p {
-  color: purple;
+  color: #5D3891;
   font-size: 2em;
   text-indent: 30px;
 }
 
 /* Footer Styles */
 footer {
-  color: purple;
+  color: #5D3891;
   font-size: 1.5em;
   text-align: center;
   padding-top: 200px;
@@ -146,7 +146,7 @@ footer {
 }
 
 .menu ul li a {
-  color: orangered;
+  color: #F99417;
   text-decoration: none;
 }
 
@@ -168,7 +168,7 @@ footer {
 
 /* Color of link text within paragraphs */
 .container p a {
-  color: orangered;
+  color: #F99417;
   text-decoration: none;
 }
 
@@ -195,7 +195,7 @@ footer {
 
 .column li {
   padding: 10px;
-  border: 2px solid purple;
+  border: 2px solid #5D3891;
   margin-bottom: 10px;
   font-weight: bold;
   font-size: larger;
@@ -212,7 +212,7 @@ h4 {
 }
 
 .orange {
-  color: orangered;
+  color: #F99417;
   text-align: center;
 }
 
