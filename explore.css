@@ -2,8 +2,8 @@
 body {
   display: block;
   justify-content: center;
-  background-color: white;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #F5F5F5;
+  font-family: Arial, Helvetica, sans-serif;
   overflow-y: scroll;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
 
 /* Heading Styles */
 h1 {
-  color: purple;
+  color: #5D3891;
   font-size: 3em;
   text-align: center;
   margin: 0;
@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-  color: purple;
+  color: #5D3891;
   font-size: 2em;
   padding-top: 150px;
   text-align: center;
@@ -41,7 +41,7 @@ h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  color: orangered;
+  color: #F99417;
 }
 
 /* Styles for the dropdown container */
@@ -55,7 +55,7 @@ h2 {
 
 #websiteDropdown {
   font-size: 3em;
-  color: purple;
+  color: #5D3891;
   margin: 0;
   background-color: lightgray;
   outline-style: hidden;
@@ -106,7 +106,7 @@ h2 {
 }
 
 .menu ul li a {
-  color: orangered;
+  color: #F99417;
   text-decoration: none;
 }
 
@@ -131,7 +131,7 @@ footer {
   position: absolute;
   bottom: -400px;
   width: 100%;
-  color: purple;
+  color: #5D3891;
   font-size: 1.5em;
   text-align: center;
 }
