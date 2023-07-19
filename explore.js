@@ -180,9 +180,39 @@ var websites = {
   ],
   Social: [
     {
+      url: 'https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst',
+      descriptor: 'Amethyst',
+      description: 'The best decentralized social network on your Android phone.',  
+    },
+    {
       url: 'https://badges.page/',
       descriptor: 'badges.page',
       description: 'Create, collect and award badges.',
+    },
+    {
+      url: 'https://coracle.social/',
+      descriptor: 'Coracle',
+      description: 'High-quality social media experience for the web.',
+    },
+    {
+      url: 'https://app.getcurrent.io/',
+      descriptor: 'Current',
+      description: 'The power of Bitcoin + Nostr at your hands',
+    },
+    {
+      url: 'https://damus.io/',
+      descriptor: 'Damus',
+      description: 'The social network you control on iOS',
+    },
+    {
+      url: 'https://iris.to/',
+      descriptor: 'Iris',
+      description: 'The Nostr client for better social networks.',
+    },
+    {
+      url: 'https://www.nos.social/',
+      descriptor: 'Nos',
+      description: 'Join your peers in a healthy social network.',
     },
     {
       url: 'https://nostr.band/',
@@ -213,6 +243,21 @@ var websites = {
       url: 'https://nostrnests.com/',
       descriptor: 'nostrnests.com',
       description: 'Host and join audio spaces.',
+    },
+    {
+      url: 'https://plebstr.com/',
+      descriptor: 'Plebstr',
+      description: 'A friendly Nostr client, reimagined.',
+    },
+    {
+      url: 'https://satellite.earth/',
+      descriptor: 'Satellite',
+      description: 'Find your community and joing the conversation.',
+    },
+    {
+      url: 'https://snort.social/',
+      descriptor: 'Snort',
+      description: 'Feature packed Nostr client.',
     },
     {
       url: 'https://vida.page/',
