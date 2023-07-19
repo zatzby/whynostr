@@ -252,7 +252,7 @@ var websites = {
     {
       url: 'https://satellite.earth/',
       descriptor: 'Satellite',
-      description: 'Find your community and joing the conversation.',
+      description: 'Find your community and join the conversation.',
     },
     {
       url: 'https://snort.social/',
