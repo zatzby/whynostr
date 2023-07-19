@@ -14,7 +14,7 @@ DESIGN TO DO LIST:
 - [ ] Add light and dark mode toggle switch.
 - [ ] Optimize site for mobile device viewing.
 - [ ] Organize all css into one single file if possible.
-- [ ] Clean up unecessary code.
+- [ ] Clean up unnecessary code.
 
 GENERAL TO DO LIST:
 
