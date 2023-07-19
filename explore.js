@@ -88,6 +88,11 @@ var websites = {
       description: 'Uploader and GIF-ify generator.',
     },
     {
+      url: 'https://satellite.earth/cdn',
+      descriptor: 'satellite.earth',
+      description: 'Scalable media hosting for the Nostr ecosystem.',
+    },
+    {
       url: 'https://void.cat/',
       descriptor: 'void.cat',
       description:
