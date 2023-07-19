@@ -101,65 +101,56 @@ var websites = {
   ],
 
   "Newly Added": [
-  {
-      url: 'https://nashboard.space/',
-      descriptor: 'nashboard.space',
-      description: 'A Nostr network dashboard.',
-    },
-  {
-      url: 'https://listr.lol/',
-      descriptor: 'listr.lol',
-      description: 'A simple tool that allows you to browse and manage lists.',
-    },
-  {
-      url: 'https://nostrfreaks.com/',
-      descriptor: 'nostrfreaks.com',
-      description: 'Add multiple Nostr sites to a single browser window.',
+    {
+      url: 'https://btcmap.org/',
+      descriptor: 'btcmap.org',
+      description: 'Easily find places to spend sats anywhere on the planet.',
     },
      {
-      url: 'https://www.zapit.live/',
-      descriptor: 'zapit.live',
-      description: 'Put any content behind a Bitcoin lightning paywall.',
+      url: 'https://notazap.lol/',
+      descriptor: 'notazap.lol',
+      description: 'This is a tool that allows you to zap, but not.',
     },
-  
-    {
-      url: 'https://nostrit.com/',
-      descriptor: 'nostrit.com',
-      description: 'Publish your note when something happens.',
-    },
-  {
-    url: 'https://zap.stream/',
-    descriptor: 'zap.stream',
-    description: 'A Nostr native streaming provider.',
-  },
-    {
-      url: 'https://www.wavman.app/',
-      descriptor: 'wavman.app',
-      description: 'An open-source music player built for Nostr.',
-    },
-    {
-      url: 'https://nostr.do/',
-      descriptor: 'nostr.do',
-      description: 'Share Nostr invites with everyone!',
-    },
-        {
-      url: 'https://jesterui.github.io/',
-      descriptor: 'jesterui',
-      description: 'Play Chess over Nostr.',
+     {
+      url: 'https://www.nos.social/',
+      descriptor: 'Nos',
+      description: 'Join your peers in a healthy social network.',
     },
   {
-      url: 'https://winemasters.social/',
-      descriptor: 'winemasters.social',
-      description: 'A Wine Trivia Nostr bot with Bitcoin prizes.',
+      url: 'https://coracle.social/',
+      descriptor: 'Coracle',
+      description: 'High-quality social media experience for the web.',
     },
-    
+    {
+      url: 'https://app.getcurrent.io/',
+      descriptor: 'Current',
+      description: 'The power of Bitcoin + Nostr at your hands',
+    },
+    {
+      url: 'https://damus.io/',
+      descriptor: 'Damus',
+      description: 'The social network you control on iOS',
+    },
+    {
+      url: 'https://iris.to/',
+      descriptor: 'Iris',
+      description: 'The Nostr client for better social networks.',
+    },
+    {
+      url: 'https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst',
+      descriptor: 'Amethyst',
+      description: 'The best decentralized social network on your Android phone.',  
+    },
+    {
+      url: 'https://relaying.io/',
+      descriptor: 'relaying.io',
+      description: 'Host your own private relay and never lose your notes.',
+    },
   {
-      url: 'https://triviamasters.social/',
-      descriptor: 'triviamasters.social',
-      description: 'A Trivia Nostr bot with Bitcoin prizes.',
-    },  
-    
-  ],
+      url: 'https://satellite.earth/cdn',
+      descriptor: 'satellite.earth',
+      description: 'Scalable media hosting for the Nostr ecosystem.',
+    },
   
   Relays: [
     {
@@ -296,6 +287,11 @@ var websites = {
       url: 'https://advancednostrsearch.vercel.app/',
       descriptor: 'advanced nostr search',
       description: 'A tool to help you find nostr notes',
+    },
+    {
+      url: 'https://btcmap.org/',
+      descriptor: 'btcmap.org',
+      description: 'Easily find places to spend sats anywhere on the planet.',
     },
     {
       url: 'https://listr.lol/',
