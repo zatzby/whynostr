@@ -151,7 +151,7 @@ var websites = {
       descriptor: 'satellite.earth',
       description: 'Scalable media hosting for the Nostr ecosystem.',
     },
-  
+  ],
   Relays: [
     {
       url: 'https://www.nostr.land/',
