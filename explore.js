@@ -182,6 +182,11 @@ var websites = {
       descriptor: 'relay.exchange',
       description: 'Paid Relay Service Providers comparison table',
     },
+    {
+      url: 'https://relaying.io/',
+      descriptor: 'relaying.io',
+      description: 'Host your own private relay and never lose your notes.',
+    },
   ],
   Social: [
     {
@@ -369,6 +374,11 @@ var websites = {
         'A browser based testing ground for key generation, NIP-26 delegation, and more.',
     },
     {
+      url: 'https://notazap.lol/',
+      descriptor: 'notazap.lol',
+      description: 'This is a tool that allows you to zap, but not.',
+    },
+    {
       url: 'https://github.com/grunch/rana',
       descriptor: 'rana',
       description: 'CLI based vanity key generator',
@@ -384,7 +394,7 @@ var websites = {
       description: 'Create a zaplink.',
     },
   ],
-  'Writing/Curating': [
+  'Writing': [
     {
       url: 'https://blogstack.io/',
       descriptor: 'blogstack.io',
