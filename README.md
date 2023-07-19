@@ -1,24 +1,38 @@
-# whynostr...
+# create-svelte
 
-...because it is fun, free, weird, new, evolving, and ours.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-This is an attempt to make Nostr accessible for the masses. A friendly, easy to navigate interface where new and existing users can find the applications that interest them the most.
+## Creating a project
 
+If you're seeing this, you've probably already done this step. Congrats!
 
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-If you would like to submit a Nostr site or application please contact me via DM on Nostr at npub10fu0hlkx3s4n4dsgfu0cpqephga4afr4qtzpz9vsyqf7vj88v2yqdp8vp4 or submit an issue/pull request here.
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
+## Developing
 
-DESIGN TO DO LIST:
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-- [ ] Add light and dark mode toggle switch.
-- [ ] Optimize site for mobile device viewing.
-- [ ] Organize all css into one single file if possible.
-- [ ] Clean up unnecessary code.
+```bash
+npm run dev
 
-GENERAL TO DO LIST:
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-- [ ] Rework join.html page and add more clients.
-- [ ] Add key management section and sites/apps to explore.html.
-- [ ] Integrate with NIP-07 or nsecbunker to allow users to log-in and bookmark their favorite websites.
+## Building
 
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
