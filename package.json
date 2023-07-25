@@ -34,8 +34,13 @@
     "type": "module",
     "dependencies": {
         "@floating-ui/dom": "^1.4.5",
+        "@nostr-dev-kit/ndk": "^0.7.7",
+        "@nostr-dev-kit/ndk-svelte-components": "^0.3.4",
         "flowbite": "^1.7.0",
         "flowbite-svelte": "^0.40.1",
-        "tailwind-merge": "^1.14.0"
+        "nostr-tools": "^1.13.1",
+        "svelte-french-toast": "^1.2.0",
+        "tailwind-merge": "^1.14.0",
+        "typed.js": "^2.0.16"
     }
 }
