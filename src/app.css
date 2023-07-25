@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+    @apply transition-all duration-500 hover:duration-300 underline hover:no-underline hover:text-purple-700;
+}
+
+a.navLink {
+    @apply dark:text-zinc-400 dark:hover:text-purple-500 text-zinc-600 hover:text-purple-700;
+}
+
+a.navLink.active {
+    @apply dark:text-white text-black;
+}
