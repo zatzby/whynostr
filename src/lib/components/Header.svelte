@@ -1,7 +1,6 @@
 <script lang="ts">
     import ProfileMenu from "./ProfileMenu.svelte";
     import { page } from '$app/stores';
-    import { browser } from "$app/environment";
 </script>
 
 <div class="container border-b border-black/20 dark:border-white/20 mx-auto py-6 flex flex-col gap-6 md:flex-row md:gap-0 items-center justify-between">
