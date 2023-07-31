@@ -14,6 +14,9 @@
 <h3>
     <a href="https://github.com/nostr-protocol/nips">Github for Nostr NIPS</a>
 </h3>
+<h3>
+    <a href="https://ndkit.com/">Nostr Dev Kit</a>
+</h3>
 
 <style>
     h2 {

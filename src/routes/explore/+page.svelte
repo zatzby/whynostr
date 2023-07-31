@@ -98,7 +98,7 @@ Explore the ecosystem
     <a href="https://iris.to/">Iris</a> - The Nostr client for better social networks.
 </h3>
 <h3>
-    <a href="https://listr.lol/">listr.lol</a> - Browse and manage Nostr lists.
+    <a href="https://listr.lol/">Listr</a> - Browse and manage Nostr lists.
 </h3>
 <h3>
     <a href="https://www.nos.social/">Nos</a> - Join your peers in a healthy social network.
@@ -157,7 +157,7 @@ Explore the ecosystem
     <a href="https://btcmap.org/">BTC Map</a> - Easily find places to spend your sats anywhere on the planet.
 </h3>
 <h3>
-    <a href="https://listr.lol/">listr.lol</a> - A simple tool that allows you to browse and mange Nostr lists.
+    <a href="https://listr.lol/">Listr</a> - A simple tool that allows you to browse and mange Nostr lists.
 </h3>
 <h3>
     <a href="https://nak.nostr.com/">Nostr Army Knife</a> - Generate events and keypairs.
