@@ -43,3 +43,9 @@
 
     <p>With Nostr, the power is returned to the individual. Your journey is not controlled by algorithms, riddled with unnecessary and irrelevant ads, but is up to YOU. <a href="/learn">Learn</a> more about the protocol and join the fun!</p>
 </div>
+
+<style>
+    * {
+        caret-color: transparent;
+    }
+</style>

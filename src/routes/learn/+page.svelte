@@ -22,4 +22,8 @@
     h2 {
         color: orangered
         }
+
+        * {
+        caret-color: transparent;
+    }
 </style>

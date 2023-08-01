@@ -219,7 +219,7 @@ Explore the ecosystem
     Writing
 </h2>
 <h3>
-    <a href="https://blogstack.io/">blogstack</a> - A lightning enabled long form blogging platform.
+    <a href="https://blogstack.io/">Blogstack</a> - A lightning enabled long form blogging platform.
 </h3>
 <h3>
     <a href="https://habla.news/">Habla</a> - Earn bitcoin for your writing.
@@ -234,5 +234,9 @@ Explore the ecosystem
 <style>
     h2 {
         color: orangered
+    }
+
+    * {
+        caret-color: transparent;
     }
 </style>
