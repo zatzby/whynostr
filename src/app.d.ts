@@ -2,6 +2,15 @@
 // for information about these interfaces
 declare global {
     namespace App {
+        interface LinkList {
+            title: string;
+            links: Link[];
+        }
+        interface Link {
+            title: string;
+            url: string;
+            description: string;
+        }
         // interface Error {}
         // interface Locals {}
         // interface PageData {}
