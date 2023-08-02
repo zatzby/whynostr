@@ -60,7 +60,8 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'Nostrcheck',
                 url: 'https://nostrcheck.me/public',
-                description: 'Media hosting, nostr address, key converter and private relay.'
+                description:
+                    'Media hosting, Nostr address provider, key converter, private relay and more.'
             },
             {
                 title: 'Nostrfiles',
@@ -76,6 +77,38 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Satellite',
                 url: 'https://satellite.earth/cdn',
                 description: 'Scalable media hosting for the Nostr ecosystem.'
+            }
+        ]
+    },
+    {
+        title: 'Nostr Address',
+        links: [
+            {
+                title: 'Nostrcheck',
+                url: 'https://nostrcheck.me',
+                description:
+                    'Free Nostr address provider, media hosting, private nostr relay and more.'
+            },
+            {
+                title: 'Nostr-Check',
+                url: 'https://www.nostr-check.com/',
+                description: 'Free Nostr address provider'
+            },
+            {
+                title: 'Nostr Plebs',
+                url: 'https://nostrplebs.com/',
+                description:
+                    'Paid Nostr address provider with directory service, FAQ section and more.'
+            },
+            {
+                title: 'Swarmstr',
+                url: 'https://swarmstr.com/nostr-address',
+                description: 'Free Nostr address provider and Ask Nostr section. '
+            },
+            {
+                title: 'Zaps.lol',
+                url: 'https://zaps.lol',
+                description: 'Free Nostr address provider.'
             }
         ]
     },
@@ -273,7 +306,7 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'Access Nostr statistics via REST API.'
             },
             {
-                title: 'nostr.rest',
+                title: 'Nostr.rest',
                 url: 'https://nostr.rest',
                 description: 'A browser-based vanity key generator.'
             },
