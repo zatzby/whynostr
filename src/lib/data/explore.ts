@@ -30,8 +30,43 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
+        title: 'Art',
+        links: [
+            {
+                title: 'Npub Visualizer',
+                url: 'https://yunginter.net/art/001',
+                description: 'Generate lineal art based on your npub.'
+            },
+            {
+                title: 'Polygonal Zap Count',
+                url: 'https://yunginter.net/art/002',
+                description: 'View your zap count data as polygonal shapes.'
+            },
+            {
+                title: 'Polygonal Sat Amount',
+                url: 'https://yunginter.net/art/003',
+                description: 'View your sat amount data as polygonal shapes.'
+            }
+        ]
+    },
+    {
+        title: 'Browser Extensions',
+        links:        [
+            {
+                title: 'Filler',
+                url: 'google.com',
+                description: 'This is filler, add content to this section.'
+            }
+        ]
+    },
+    {
         title: 'Games',
         links: [
+            {
+                title: 'Choose Your Own Adventure',
+                url: 'https://snort.social/p/npub1l6jqp0h7kkl3zkck2a0zza4lhk8m32ueskkpwzkmgq4l3jymn59q7ezyfy',
+                description: 'Play quick AI-powered RPG games over Nostr.'
+            },
             {
                 title: 'Jester',
                 url: 'https://jesterui.github.io/',
@@ -360,6 +395,41 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Zaplinks.lol',
                 url: 'https://zaplinks.lol',
                 description: 'Create a zaplink.'
+            }
+        ]
+    },
+    {
+        title: "Wallets",
+        links: [
+            {
+                title: 'Alby',
+                url: 'https://getalby.com/',
+                description: 'Your Bitcoin and Nostr companion for the web.',
+            },
+            {
+                title: 'Blink',
+                url: 'https://www.blink.sv/',
+                description: 'The everyday Bitcoin wallet. Blink (formerly Bitcoin Beach Wallet) makes Bitcoin easy.',
+            },
+            {
+                title: 'BTCPay Server',
+                url: 'https://btcpayserver.org/',
+                description: 'Start Accepting Bitcoin payments plus NIP-57 LN address support.',
+            },
+            {
+                title: 'Current',
+                url: 'https://app.getcurrent.io/',
+                description: 'The power of Bitcoin + Nostr at your hands. Nostr client and lightning wallet.',
+            },
+            {
+                title: 'LifPay',
+                url: 'https://lifpay.me/en/',
+                description: 'A Bitcoin lightning wallet with Nostr compatibility.',
+            },
+            {
+                title: 'Wallet of Satoshi',
+                url: 'https://www.walletofsatoshi.com/',
+                description: "The world's simplest Bitcoin Lightning Wallet.",
             }
         ]
     },
