@@ -1,25 +1,5 @@
 export const exploreLinks: App.LinkList[] = [
     {
-        title: 'Art',
-        links: [
-            {
-                title: 'Npub Visualizer',
-                url: 'https://yunginter.net/art/001',
-                description: 'Generate lineal art based on your npub.'
-            },
-            {
-                title: 'Polygonal Zap Count',
-                url: 'https://yunginter.net/art/002',
-                description: 'View your zap count data as polygonal shapes.'
-            },
-            {
-                title: 'Polygonal Sat Amount',
-                url: 'https://yunginter.net/art/003',
-                description: 'View your sat amount data as polygonal shapes.'
-            }
-        ]
-    },
-    {
         title: 'Audio',
         links: [
             {
@@ -38,11 +18,6 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'Connect via paid messages, calls and live streams.'
             },
             {
-                title: 'Wavlake',
-                url: 'https://www.wavlake.com/',
-                description: 'Turn up the value for your biggest fans.'
-            },
-            {
                 title: 'Wavman',
                 url: 'https://www.wavman.app',
                 description: 'An open-source music player built for Nostr.'
@@ -55,44 +30,12 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
-        title: 'Browser Extensions',
-        links: [
-            {
-                title: 'Alby',
-                url: 'https://getalby.com/',
-                description: 'Your Bitcoin and Nostr companion for the web.'
-            },
-            {
-                title: 'Flamingo',
-                url: 'https://www.getflamingo.org/',
-                description:
-                    'A Chrome compatible browser extension that makes interacting with Nostr apps safe and easy.'
-            },
-            {
-                title: 'Nos2x',
-                url: 'https://chrome.google.com/webstore/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp',
-                description: 'A Chrome compatible signer extension that allows you to sign Nostr events on web-apps without having to give them your keys.'
-            }
-        ]
-    },
-    {
         title: 'Games',
         links: [
-            {
-                title: 'Choose Your Own Adventure',
-                url: 'https://snort.social/p/npub1l6jqp0h7kkl3zkck2a0zza4lhk8m32ueskkpwzkmgq4l3jymn59q7ezyfy',
-                description: 'Play quick AI-powered RPG games over Nostr.'
-            },
             {
                 title: 'Jester',
                 url: 'https://jesterui.github.io/',
                 description: 'Play chess over Nostr.'
-            },
-            {
-                title: 'Tetro Tiles',
-                url: 'https://www.thndr.games/bitcoin-games/bitcoin-blocks',
-                description:
-                    'Do you like puzzle games, collecting free bitcoin, and earning Nostr badges? Then we have the perfect puzzle game for you!'
             },
             {
                 title: 'Trivia Masters',
@@ -172,6 +115,11 @@ export const exploreLinks: App.LinkList[] = [
     {
         title: 'Relays',
         links: [
+            {
+                title: 'Nostr.land',
+                url: 'https://www.nostr.land',
+                description: 'Where relays evolve.'
+            },
             {
                 title: 'Nostr.watch',
                 url: 'https://nostr.watch',
@@ -273,17 +221,6 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'A friendly Nostr client, reimagined.'
             },
             {
-                title: 'Pinstr',
-                url: 'https://pinstr.app/',
-                description:
-                    'A decentralized and open-source social network for curating and sharing your interests with the world.'
-            },
-            {
-                title: 'Pollstr',
-                url: 'https://pollstr.online/',
-                description: 'Unleash the power of polls with Nostr.'
-            },
-            {
                 title: 'Satellite',
                 url: 'https://satellite.earth',
                 description: 'Find your community and join the conversation.'
@@ -342,11 +279,6 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Nashboard',
                 url: 'https://nashboard.space',
                 description: 'A Nostr network dashboard.'
-            },
-            {
-                title: 'Nosbin',
-                url: 'https://nosbin.com/',
-                description: 'The original decentralized pasting platform, built on Nostr.'
             },
             {
                 title: 'Nostr Event Deletion',
@@ -428,49 +360,6 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Zaplinks.lol',
                 url: 'https://zaplinks.lol',
                 description: 'Create a zaplink.'
-            }
-        ]
-    },
-    {
-        title: 'Wallets',
-        links: [
-            {
-                title: 'Alby',
-                url: 'https://getalby.com/',
-                description: 'Your Bitcoin and Nostr companion for the web.'
-            },
-            {
-                title: 'Blink',
-                url: 'https://www.blink.sv/',
-                description:
-                    'The everyday Bitcoin wallet. Blink (formerly Bitcoin Beach Wallet) makes Bitcoin easy.'
-            },
-            {
-                title: 'BTCPay Server',
-                url: 'https://btcpayserver.org/',
-                description: 'Start Accepting Bitcoin payments plus NIP-57 LN address support.'
-            },
-            {
-                title: 'Current',
-                url: 'https://app.getcurrent.io/',
-                description:
-                    'The power of Bitcoin + Nostr at your hands. Nostr client and lightning wallet.'
-            },
-            {
-                title: 'LifPay',
-                url: 'https://lifpay.me/en/',
-                description: 'A Bitcoin lightning wallet with Nostr compatibility.'
-            },
-            {
-                title: 'Mutiny Wallet',
-                url: 'https://www.mutinywallet.com/',
-                description:
-                    'Unstoppable bitcoin. For everyone. Mutiny is a self-custodial Nostr compatible lightning wallet that runs in the browser.'
-            },
-            {
-                title: 'Wallet of Satoshi',
-                url: 'https://www.walletofsatoshi.com/',
-                description: "The world's simplest Bitcoin Lightning Wallet."
             }
         ]
     },
