@@ -8,8 +8,9 @@
     <div class="flex flex-row gap-6 items-center">
         <div class="flex flex-row gap-4 items-center">
             <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('learn') ? 'active' : ''}" href="/learn">Learn</a>
+            <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('join') ? 'active' : ''}" href="/join">Join</a>            
             <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('explore') ? 'active' : ''}" href="/explore">Explore</a>
-            <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('join') ? 'active' : ''}" href="/join">Join</a>
+            
         </div>
         <ProfileMenu on:logout on:login />
     </div>
