@@ -38,6 +38,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'Connect via paid messages, calls and live streams.'
             },
             {
+                title: 'Wavlake',
+                url: 'https://www.wavlake.com/',
+                description: 'Turn up the value for your biggest fans.'
+            },
+            {
                 title: 'Wavman',
                 url: 'https://www.wavman.app',
                 description: 'An open-source music player built for Nostr.'
@@ -66,7 +71,7 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'Nos2x',
                 url: 'https://chrome.google.com/webstore/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp',
-                url: 'A Chrome compatible signer extension that allows you to sign Nostr events on web-apps without having to give them your keys.'
+                description: 'A Chrome compatible signer extension that allows you to sign Nostr events on web-apps without having to give them your keys.'
             }
         ]
     },
