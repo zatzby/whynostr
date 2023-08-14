@@ -2,7 +2,7 @@
     import { learnLinks } from "$lib/data/learn";
 </script>
 
-<h1>Explore the ecosystem</h1>
+<h1>Learn about the protocol</h1>
 
 {#each learnLinks as linkList}
     <h2>{linkList.title}</h2>
