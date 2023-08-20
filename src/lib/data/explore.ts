@@ -33,6 +33,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'Host and join audio spaces.'
             },
             {
+                title: 'Stemstr',
+                url: 'https://stemstr.app/',
+                description: 'A social experience for music artists to connect, collaborate and share amazing music - powered by nostr.'
+            },
+            {
                 title: 'Vida',
                 url: 'https://vida.page',
                 description: 'Connect via paid messages, calls and live streams.'
