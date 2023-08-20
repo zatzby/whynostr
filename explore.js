@@ -30,6 +30,11 @@ var websites = {
       description: 'Host and join audio spaces.',
     },
     {
+      url: 'https://stemstr.app/',
+      descriptor: 'stemstr.app',
+      description: 'A social experience for music artists to connect, collaborate and share amazing music - powered by nostr.',
+    },
+    {
       url: 'https://vida.page/',
       descriptor: 'vida.page',
       description: 'Connect via paid messages, calls and live streams.',
