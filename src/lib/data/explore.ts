@@ -1,3 +1,5 @@
+import { P } from 'flowbite-svelte';
+
 export const exploreLinks: App.LinkList[] = [
     {
         title: 'Art',
@@ -35,7 +37,8 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'Stemstr',
                 url: 'https://stemstr.app/',
-                description: 'A social experience for music artists to connect, collaborate and share amazing music - powered by nostr.'
+                description:
+                    'A social experience for music artists to connect, collaborate and share amazing music - powered by nostr.'
             },
             {
                 title: 'Vida',
@@ -76,7 +79,42 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'Nos2x',
                 url: 'https://chrome.google.com/webstore/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp',
-                description: 'A Chrome compatible signer extension that allows you to sign Nostr events on web-apps without having to give them your keys.'
+                description:
+                    'A Chrome compatible signer extension that allows you to sign Nostr events on web-apps without having to give them your keys.'
+            }
+        ]
+    },
+    {
+        title: 'Commerce',
+        links: [
+            {
+                title: 'Coinkite',
+                url: 'https://coinkite.com/',
+                description:
+                    'Bitcoin security and fun devices. Makers of the Opendime, Coldcard, Blockclock and more.'
+            },
+            {
+                title: 'LNbits - Nostr Market',
+                url: 'https://github.com/lnbits/nostrmarket',
+                description:
+                    'Create merchant accounts, or import your existing Nostr account, create stalls and start listing products for sale.'
+            },
+            {
+                title: 'Plebian Market',
+                url: 'https://plebeian.market/',
+                description: 'Buy anything in sats, and sell anything and get paid in sats.'
+            },
+            {
+                title: 'Robotechy',
+                url: 'https://robotechy.com/',
+                description:
+                    '3d printed Bitcoin and Nostr products and memorabilia with custom orders available.'
+            },
+            {
+                title: 'Satoshi Coffee Co',
+                url: 'https://sats.coffee/',
+                description:
+                    'Purchase fresh-roasted coffee with the lightning network or on-chain BTC.'
             }
         ]
     },
@@ -175,8 +213,24 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
+        title: 'Nostr Browsers',
+        links: [
+            {
+                title: 'NostrNet',
+                url: 'https://www.nostrnet.work/',
+                description:
+                    'View Nostr apps in browser, with NostrAI extension, notes, chat and more.'
+            }
+        ]
+    },
+    {
         title: 'Relays',
         links: [
+            {
+                title: 'Nostr.info',
+                url: 'https://nostr.info/relays/',
+                description: 'View relays and filter by performance.'
+            },
             {
                 title: 'Nostr.watch',
                 url: 'https://nostr.watch',
@@ -196,12 +250,23 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Relaying.io',
                 url: 'https://relaying.io',
                 description: 'Host your own private relay and never lose your notes.'
+            },
+            {
+                title: 'Relay.tools',
+                url: 'https://relay.tools/',
+                description:
+                    'View available public relays and deploy your own relay with a few mouse clicks.'
             }
         ]
     },
     {
         title: 'Social',
         links: [
+            {
+                title: '0xchat',
+                url: 'https://0xchat.com/#/',
+                description: 'Secure chat built on Nostr.'
+            },
             {
                 title: 'Amethyst',
                 url: 'https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst',
@@ -211,6 +276,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Badges.page',
                 url: 'https://badges.page',
                 description: 'Create, collect and award badges.'
+            },
+            {
+                title: 'Blowater',
+                url: 'https://blowater.deno.dev/',
+                description: 'A sleek, DM focused Nostr client.'
             },
             {
                 title: 'Coracle',
@@ -425,6 +495,12 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'A CLI-based vanity key generator.'
             },
             {
+                title: 'Seedsigner',
+                url: 'https://seedsigner.com/',
+                description:
+                    'Next Level Bitcoin Security. Build your own offline, air-gapped Bitcoin transaction signing device from off-the-shelf components for less than $50!'
+            },
+            {
                 title: 'Zapit.live',
                 url: 'https://www.zapit.live',
                 description: 'Put any content behind a Bitcoin lightning paywall.'
@@ -488,6 +564,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'A lightning enabled long form blogging platform.'
             },
             {
+                title: 'Flycat',
+                url: 'https://flycat.club/',
+                description: 'Long form content focused client for the Nostrverse.'
+            },
+            {
                 title: 'Habla',
                 url: 'https://habla.news',
                 description: 'Earn Bitcoin for your writing.'
@@ -502,6 +583,28 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Postr',
                 url: 'https://write.nostr.com',
                 description: 'Send Markdown long-format or blog post notes.'
+            },
+            {
+                title: 'Yakihonne',
+                url: 'https://yakihonne.com/',
+                description: 'Publish and curate long-form content.'
+            }
+        ]
+    },
+    {
+        title: 'Work',
+        links: [
+            {
+                title: 'Bountstr',
+                url: 'https://bountsr.org/',
+                description:
+                    'View, complete and post Nostr bounties for work, tasks or projects within the Nostr ecosystem.'
+            },
+            {
+                title: 'Ostrich Work',
+                url: 'https://ostrich.work/',
+                description:
+                    'The first and best Nostr jobs board on the internet. Post full-time, part-time, and contract work for Nostr projects.'
             }
         ]
     }

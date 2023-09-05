@@ -78,5 +78,27 @@ export const joinLinks: App.LinkList[] = [
                 description: 'A feature packed Nostr client.'
             }
         ]
+    },
+    {
+        title: 'Desktop',
+        links: [
+            {
+                title: 'Gossip',
+                url: 'https://github.com/mikedilger/gossip',
+                description:
+                    'A desktop client for Nostr built on the Gossip model that works with Arch Linux, Debian and Windows.'
+            },
+            {
+                title: 'Lume',
+                url: 'https://lume.nu/',
+                description: 'A Nostr client built for macOS, Windows and Linux.'
+            },
+            {
+                title: 'More Speech',
+                url: 'https://github.com/unclebob/more-speech',
+                description:
+                    'A pragmatic desktop client for communicating over the Nostr protocol. No Fluff, Just Stuff.'
+            }
+        ]
     }
 ];
