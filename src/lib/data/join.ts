@@ -46,6 +46,11 @@ export const joinLinks: App.LinkList[] = [
                 title: 'Plebstr',
                 url: 'https://apps.apple.com/app/plebstr-nostr-client/id1666230916',
                 description: 'A friendly Nostr client, reimagined.'
+            },
+            {
+                title: 'Sideus',
+                url: 'https://sideus.app/',
+                description: 'A zap-enabled fork of Damus, available as a sideloaded app on the iPhone.'
             }
         ]
     },
