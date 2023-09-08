@@ -22,7 +22,7 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
-        title: 'Audio',
+        title: 'Audio/Video Streaming',
         links: [
             {
                 title: 'Fountain',
@@ -59,6 +59,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Zapstr.live',
                 url: 'https://zapstr.live',
                 description: 'Sign in, listen, upload and chat.'
+            },
+            {
+                title: 'Zap.stream',
+                url: 'https://zap.stream/',
+                description: 'View current streams and start new live streams while chatting, zapping and interacting.'
             }
         ]
     },
@@ -181,6 +186,16 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
+        title: 'News',
+        links: [
+            {
+                title: 'Nostr Report',
+                url: 'https://nostr.report/',
+                description: 'Your #1 source for Daily Nostr news. Built by plebs, for plebs.'
+            }
+        ]
+    },
+    {
         title: 'Nostr Address',
         links: [
             {
@@ -220,6 +235,11 @@ export const exploreLinks: App.LinkList[] = [
                 url: 'https://www.nostrnet.work/',
                 description:
                     'View Nostr apps in browser, with NostrAI extension, notes, chat and more.'
+            },
+            {
+                title: 'Spring',
+                url: 'https://spring.site/',
+                description: 'The universe of Nostr applications is growing. Join it safely with Spring, the purpose-built Nostr browser.'
             }
         ]
     },
@@ -509,6 +529,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Zaplinks.lol',
                 url: 'https://zaplinks.lol',
                 description: 'Create a zaplink.'
+            },
+            {
+                title: 'Zapple Pay',
+                url: 'https://www.zapplepay.com/',
+                description: 'Zap any note from any Nostr client with the power of emojis.'
             }
         ]
     },
