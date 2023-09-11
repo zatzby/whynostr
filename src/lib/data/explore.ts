@@ -218,6 +218,17 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
+        title: 'Metaverse',
+        links: [
+            {
+                title: 'Onosendai',
+                url: 'https://www.onosendai.tech/',
+                description:
+                    'A finite digital metaverse built on the Nostr protocol where every action has a real world cost via proof-of-work.'
+            }
+        ]
+    },
+    {
         title: 'News',
         links: [
             {

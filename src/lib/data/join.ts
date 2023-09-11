@@ -87,7 +87,7 @@ export const joinLinks: App.LinkList[] = [
             },
             {
                 title: 'Iris',
-                url: 'https:/iris.to',
+                url: 'https://iris.to/',
                 description: 'The Nostr client for better social networks.'
             },
             {
