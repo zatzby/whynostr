@@ -1,3 +1,5 @@
+import { DescriptionList } from 'flowbite-svelte';
+
 export const joinLinks: App.LinkList[] = [
     {
         title: 'Android',
@@ -8,9 +10,19 @@ export const joinLinks: App.LinkList[] = [
                 description: 'The best decentralized social media for your Android phone.'
             },
             {
+                title: 'Current',
+                url: 'https://play.google.com/store/apps/details?id=io.getcurrent.current',
+                description: 'The power of Bitcoin + Nostr at your hands.'
+            },
+            {
                 title: 'Iris',
                 url: 'https://play.google.com/store/apps/details?id=to.iris.twa&hl=en_US&gl=US',
                 description: 'The Nostr client for better social networks.'
+            },
+            {
+                title: 'Nostrmo',
+                url: 'https://play.google.com/store/apps/details?id=com.github.haorendashu.nostrmo',
+                description: 'An Android client built on the Nostr open source protocol.'
             },
             {
                 title: 'Plebstr',
@@ -22,6 +34,11 @@ export const joinLinks: App.LinkList[] = [
     {
         title: 'iOS',
         links: [
+            {
+                title: 'Current',
+                url: 'https://apps.apple.com/us/app/current-nostr-bitcoin/id1668517032',
+                description: 'The power of Bitcoin + Nostr at your hands.'
+            },
             {
                 title: 'Damus',
                 url: 'https://damus.io/',
@@ -38,6 +55,11 @@ export const joinLinks: App.LinkList[] = [
                 description: 'Join your peers in a healthy social network.'
             },
             {
+                title: 'Nostrmo',
+                url: 'https://apps.apple.com/us/app/id6447441761?l=en-us&platform=iphone',
+                description: 'An iOS client built on the Nostr open source protocol.'
+            },
+            {
                 title: 'Nostur',
                 url: 'https://nostur.com',
                 description: 'A feature packed iOS client.'
@@ -50,7 +72,8 @@ export const joinLinks: App.LinkList[] = [
             {
                 title: 'Sideus',
                 url: 'https://sideus.app/',
-                description: 'A zap-enabled fork of Damus, available as a sideloaded app on the iPhone.'
+                description:
+                    'A zap-enabled fork of Damus, available as a sideloaded app on the iPhone.'
             }
         ]
     },
