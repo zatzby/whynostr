@@ -1,4 +1,4 @@
-import { P } from 'flowbite-svelte';
+import { DescriptionList, P } from 'flowbite-svelte';
 
 export const exploreLinks: App.LinkList[] = [
     {
@@ -63,7 +63,8 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'Zap.stream',
                 url: 'https://zap.stream/',
-                description: 'View current streams and start new live streams while chatting, zapping and interacting.'
+                description:
+                    'View current streams and start new live streams while chatting, zapping and interacting.'
             }
         ]
     },
@@ -90,6 +91,26 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
+        title: 'Chat',
+        links: [
+            {
+                title: '0xchat',
+                url: 'https://0xchat.com/#/',
+                description: 'Secure chat built on Nostr.'
+            },
+            {
+                title: 'Blowater',
+                url: 'https://blowater.deno.dev/',
+                description: 'A sleek, DM focused Nostr client.'
+            },
+            {
+                title: 'NostrChat',
+                url: 'https://www.nostrchat.io',
+                description: 'A decentralized chat application.'
+            }
+        ]
+    },
+    {
         title: 'Commerce',
         links: [
             {
@@ -97,6 +118,12 @@ export const exploreLinks: App.LinkList[] = [
                 url: 'https://coinkite.com/',
                 description:
                     'Bitcoin security and fun devices. Makers of the Opendime, Coldcard, Blockclock and more.'
+            },
+            {
+                title: 'Nodeless',
+                url: 'https://nodeless.io/',
+                description:
+                    'Accept Bitcoin and Lightning payments in your online store, charity or fundariser, all without all of the complexities of managing a lightning node.'
             },
             {
                 title: 'LNbits - Nostr Market',
@@ -157,6 +184,11 @@ export const exploreLinks: App.LinkList[] = [
     {
         title: 'Media Hosting',
         links: [
+            {
+                title: 'Inosta',
+                url: 'https://inosta.cc/',
+                description: 'Pay a lightning invoice to upload a file to use on Nostr.'
+            },
             {
                 title: 'Nostr.build',
                 url: 'https://nostr.build',
@@ -239,7 +271,24 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'Spring',
                 url: 'https://spring.site/',
-                description: 'The universe of Nostr applications is growing. Join it safely with Spring, the purpose-built Nostr browser.'
+                description:
+                    'The universe of Nostr applications is growing. Join it safely with Spring, the purpose-built Nostr browser.'
+            }
+        ]
+    },
+    {
+        title: 'Other Stuff',
+        links: [
+            {
+                title: 'Graphene',
+                url: 'https://grapheneos.org/',
+                description:
+                    'The private and secure mobile operating system with Android app compatibility.'
+            },
+            {
+                title: 'Kagi',
+                url: 'https://kagi.com/',
+                description: 'Fast, accurate, and ad-free. The search engine you deserve.'
             }
         ]
     },
@@ -272,6 +321,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'Host your own private relay and never lose your notes.'
             },
             {
+                title: 'Nostrrr',
+                url: 'https://relays.vercel.app/',
+                description: 'A Nostr relay explorer with random relay finder feature.'
+            },
+            {
                 title: 'Relay.tools',
                 url: 'https://relay.tools/',
                 description:
@@ -283,11 +337,6 @@ export const exploreLinks: App.LinkList[] = [
         title: 'Social',
         links: [
             {
-                title: '0xchat',
-                url: 'https://0xchat.com/#/',
-                description: 'Secure chat built on Nostr.'
-            },
-            {
                 title: 'Amethyst',
                 url: 'https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst',
                 description: 'The best decentralized social network for your Android phone.'
@@ -296,11 +345,6 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Badges.page',
                 url: 'https://badges.page',
                 description: 'Create, collect and award badges.'
-            },
-            {
-                title: 'Blowater',
-                url: 'https://blowater.deno.dev/',
-                description: 'A sleek, DM focused Nostr client.'
             },
             {
                 title: 'Coracle',
@@ -336,11 +380,6 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Nostr.band',
                 url: 'https://nostr.band',
                 description: 'Learn what is trending today.'
-            },
-            {
-                title: 'NostrChat',
-                url: 'https://www.nostrchat.io',
-                description: 'A decentralized chat application.'
             },
             {
                 title: 'Nostr.directory',
@@ -568,6 +607,12 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'A Bitcoin lightning wallet with Nostr compatibility.'
             },
             {
+                title: 'Nodeless',
+                url: 'https://nodeless.io/',
+                description:
+                    'Accept Bitcoin and Lightning payments in your online store, charity or fundraiser, all without all of the complexities of managing a lightning node. Get payments sent directly to your cold storage or lightning address.'
+            },
+            {
                 title: 'Mutiny Wallet',
                 url: 'https://www.mutinywallet.com/',
                 description:
@@ -626,10 +671,26 @@ export const exploreLinks: App.LinkList[] = [
                     'View, complete and post Nostr bounties for work, tasks or projects within the Nostr ecosystem.'
             },
             {
+                title: 'Nostr Bounties',
+                url: 'https://nostrbounties.com/',
+                description: 'Complete taks and get paid with Bitcoin.'
+            },
+            {
+                title: 'OpenSats',
+                url: 'https://opensats.org/',
+                description:
+                    'Find and support open-source Bitcoin projects. Helping to create a better tomorrow, today.'
+            },
+            {
                 title: 'Ostrich Work',
                 url: 'https://ostrich.work/',
                 description:
                     'The first and best Nostr jobs board on the internet. Post full-time, part-time, and contract work for Nostr projects.'
+            },
+            {
+                title: 'Sovereign Engineering',
+                url: 'https://sovereignengineering.io/',
+                description: 'Build the tools. Ship the future.'
             }
         ]
     }
