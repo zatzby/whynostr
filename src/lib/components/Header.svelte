@@ -12,6 +12,6 @@
             <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('explore') ? 'active' : ''}" href="/explore">Explore</a>
             
         </div>
-        <ProfileMenu on:logout on:login />
+         <ProfileMenu on:logout on:login />
     </div>
 </div>
