@@ -1,6 +1,6 @@
 <script>
     const groupID = "<GROUP_ID_IN_HEX_FORMAT>";
-    const relays = ["wss://relay.f7z.io", "wss://nos.lol", "wss://relay.nostr.band"];
+    const relays = ["wss://purplepag.es", "wss://relay.nostr.band", "wss://nos.lol", "wss://relay.snort.social", "wss://relay.damus.io"];
 
     import { onMount } from 'svelte';
   
