@@ -22,53 +22,6 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
-        title: 'Audio/Video Streaming',
-        links: [
-            {
-                title: 'Fountain',
-                url: 'https://www.fountain.fm/',
-                description: 'The podcast app that pays.'
-            },
-            {
-                title: 'Nostr Nests',
-                url: 'https://nostrnests.com/',
-                description: 'Host and join audio spaces.'
-            },
-            {
-                title: 'Stemstr',
-                url: 'https://stemstr.app/',
-                description:
-                    'A social experience for music artists to connect, collaborate and share amazing music - powered by nostr.'
-            },
-            {
-                title: 'Vida',
-                url: 'https://vida.page',
-                description: 'Connect via paid messages, calls and live streams.'
-            },
-            {
-                title: 'Wavlake',
-                url: 'https://www.wavlake.com/',
-                description: 'Turn up the value for your biggest fans.'
-            },
-            {
-                title: 'Wavman',
-                url: 'https://www.wavman.app',
-                description: 'An open-source music player built for Nostr.'
-            },
-            {
-                title: 'Zapstr.live',
-                url: 'https://zapstr.live',
-                description: 'Sign in, listen, upload and chat.'
-            },
-            {
-                title: 'Zap.stream',
-                url: 'https://zap.stream/',
-                description:
-                    'View current streams and start new live streams while chatting, zapping and interacting.'
-            }
-        ]
-    },
-    {
         title: 'Browser Extensions',
         links: [
             {
@@ -81,6 +34,11 @@ export const exploreLinks: App.LinkList[] = [
                 url: 'https://www.getflamingo.org/',
                 description:
                     'A Chrome compatible browser extension that makes interacting with Nostr apps safe and easy.'
+            },
+            {   
+                title: 'Keys.Band',
+                url: 'https://keys.band/',
+                description: 'Keep your keys safe with the best Nostr Extension for Chromium Browsers.'
             },
             {
                 title: 'Nos2x',
@@ -107,6 +65,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'NostrChat',
                 url: 'https://www.nostrchat.io',
                 description: 'A decentralized chat application.'
+            },
+            {
+                title: 'Nostri.chat',
+                url: 'https://nostri.chat/',
+                description: 'A chat widget for your site, powered by Nostr.'
             }
         ]
     },
@@ -229,12 +192,48 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
+        title: 'Music and Podcasting',
+        links: [
+            {
+                title: 'Fountain',
+                url: 'https://www.fountain.fm/',
+                description: 'The podcast app that pays.'
+            },
+            {
+                title: 'Stemstr',
+                url: 'https://stemstr.app/',
+                description:
+                    'A social experience for music artists to connect, collaborate and share amazing music - powered by nostr.'
+            },
+            {
+                title: 'Wavlake',
+                url: 'https://www.wavlake.com/',
+                description: 'Turn up the value for your biggest fans.'
+            },
+            {
+                title: 'Wavman',
+                url: 'https://www.wavman.app',
+                description: 'An open-source music player built for Nostr.'
+            },
+            {
+                title: 'Zapstr.live',
+                url: 'https://zapstr.live',
+                description: 'Sign in, listen, upload and chat.'
+            }
+        ]
+    },
+    {
         title: 'News',
         links: [
             {
                 title: 'Nostr Report',
                 url: 'https://nostr.report/',
                 description: 'Your #1 source for Daily Nostr news. Built by plebs, for plebs.'
+            },
+            {
+                title: 'Stacker News',
+                url: 'https://stacker.news/',
+                description: "It's like Hacker News but we pay you Bitcoin."
             }
         ]
     },
@@ -413,6 +412,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'Host and join audio spaces.'
             },
             {
+                title: 'Nostr View',
+                url: 'https://nostrview.com',
+                description: 'Search popular notes, events and relays.'
+            },
+            {
                 title: 'Plebstr',
                 url: 'https://plebstr.com',
                 description: 'A friendly Nostr client, reimagined.'
@@ -457,6 +461,27 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Zap.stream',
                 url: 'https://zap.stream',
                 description: 'A Nostr native streaming provider.'
+            }
+        ]
+    },
+    {
+        title: 'Streaming',
+        links: [
+            {
+                title: 'Nostr Nests',
+                url: 'https://nostrnests.com/',
+                description: 'Host and join audio spaces.'
+            },
+            {
+                title: 'Vida',
+                url: 'https://vida.page',
+                description: 'Connect via paid messages, calls and live streams.'
+            },
+            {
+                title: 'Zap.stream',
+                url: 'https://zap.stream/',
+                description:
+                    'View current streams and start new live streams while chatting, zapping and interacting.'
             }
         ]
     },
