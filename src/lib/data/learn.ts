@@ -35,6 +35,11 @@ export const learnLinks: App.LinkList[] = [
                 title: 'Nostr Dev Kit',
                 url: 'https://ndkit.com',
                 description: 'The fastest way to build with Nostr.'
+            },
+            {
+                title: 'Nostr Design',
+                url: 'https://nostrdesign.org/',
+                description: 'Comprehensive resources and guide to help you design better clients.'
             }
         ]
     },
