@@ -709,7 +709,7 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'Nostr Bounties',
                 url: 'https://nostrbounties.com/',
-                description: 'Complete taks and get paid with Bitcoin.'
+                description: 'Complete tasks and get paid with Bitcoin.'
             },
             {
                 title: 'OpenSats',
