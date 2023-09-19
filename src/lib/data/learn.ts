@@ -40,6 +40,12 @@ export const learnLinks: App.LinkList[] = [
                 title: 'Nostr Design',
                 url: 'https://nostrdesign.org/',
                 description: 'Comprehensive resources and guide to help you design better clients.'
+            },
+            {
+                title: 'Nostr Workshop',
+                url: 'https://www.youtube.com/watch?v=HbicnlCXg_Y',
+                description:
+                    "View Super Testnet's Nostr Workshop videos and learn how to build a nostr app, how to connect and listen for messages, and more."
             }
         ]
     },

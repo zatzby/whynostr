@@ -35,10 +35,11 @@ export const exploreLinks: App.LinkList[] = [
                 description:
                     'A Chrome compatible browser extension that makes interacting with Nostr apps safe and easy.'
             },
-            {   
+            {
                 title: 'Keys.Band',
                 url: 'https://keys.band/',
-                description: 'Keep your keys safe with the best Nostr Extension for Chromium Browsers.'
+                description:
+                    'Keep your keys safe with the best Nostr Extension for Chromium Browsers.'
             },
             {
                 title: 'Nos2x',
@@ -198,6 +199,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Fountain',
                 url: 'https://www.fountain.fm/',
                 description: 'The podcast app that pays.'
+            },
+            {
+                title: 'Harmonique',
+                url: 'https://harmonique.one/',
+                description: 'An ad-free, value4value model DIY webradio broadcast since 2022.'
             },
             {
                 title: 'Stemstr',
@@ -504,11 +510,6 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'A simple tool that allows you to browse and manage Nostr lists.'
             },
             {
-                title: 'Nostr Army Knife',
-                url: 'https://nak.nostr.com',
-                description: 'Generate events and keypairs.'
-            },
-            {
                 title: 'Nashboard',
                 url: 'https://nashboard.space',
                 description: 'A Nostr network dashboard.'
@@ -519,9 +520,19 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'The original decentralized pasting platform, built on Nostr.'
             },
             {
+                title: 'Nostr Army Knife',
+                url: 'https://nak.nostr.com',
+                description: 'Generate events and keypairs.'
+            },
+            {
                 title: 'Nostr Event Deletion',
                 url: 'https://nostr-delete.vercel.app',
                 description: 'So... you want something gone?'
+            },
+            {
+                title: 'Nostr Profile Manager',
+                url: 'https://metadata.nostr.com/',
+                description: 'View Nostr profile metadata, create, download and backup your data.'
             },
             {
                 title: 'Nostrfreaks',
