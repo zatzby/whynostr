@@ -7,5 +7,5 @@
     <DarkMode />
     Fueled with Passion 🤙
     <!-- Nostri.chat below is placeholder until group hex id can be figured out-->
-    <NostriChat />
+    <!-- <NostriChat /> -->
 </div>
