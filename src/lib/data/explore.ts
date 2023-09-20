@@ -22,7 +22,7 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
-        title: 'Browser Extensions',
+        title: 'Browser Extensions and Key Management',
         links: [
             {
                 title: 'Alby',
@@ -40,6 +40,11 @@ export const exploreLinks: App.LinkList[] = [
                 url: 'https://keys.band/',
                 description:
                     'Keep your keys safe with the best Nostr Extension for Chromium Browsers.'
+            },
+            {
+                title: 'nsecBunker',
+                url: 'https://nsecbunker.com/',
+                description: 'Keep your Nostr keys in a single place and provide fine-grained access to your team members.'
             },
             {
                 title: 'Nos2x',
@@ -96,7 +101,7 @@ export const exploreLinks: App.LinkList[] = [
                     'Create merchant accounts, or import your existing Nostr account, create stalls and start listing products for sale.'
             },
             {
-                title: 'Plebian Market',
+                title: 'Plebeian Market',
                 url: 'https://plebeian.market/',
                 description: 'Buy anything in sats, and sell anything and get paid in sats.'
             },
@@ -599,6 +604,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Rana',
                 url: 'https://github.com/grunch/rana',
                 description: 'A CLI-based vanity key generator.'
+            },
+            {
+                title: 'Rsslay',
+                url: 'https://rsslay.nostr.net/',
+                description: 'Turn RSS or Atom feeds into Nostr profiles.'
             },
             {
                 title: 'Seedsigner',

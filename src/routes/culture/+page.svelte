@@ -1,10 +1,10 @@
 <script lang='ts'>
-    import { communityLinks } from "$lib/data/community";
+    import { cultureLinks } from "$lib/data/culture";
   </script>
   
   <h1>Meetup and participate</h1>
   
-  {#each communityLinks as linkList}
+  {#each cultureLinks as linkList}
     <h2>{linkList.title}</h2>
     <ul>
         {#each linkList.links as link}

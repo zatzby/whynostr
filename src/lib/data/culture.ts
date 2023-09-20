@@ -1,6 +1,6 @@
 import { DescriptionList, P } from 'flowbite-svelte';
 
-export const communityLinks: App.LinkList[] = [
+export const cultureLinks: App.LinkList[] = [
     {
         title: 'Conferences',
         links: [

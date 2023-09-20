@@ -10,7 +10,7 @@
             <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('learn') ? 'active' : ''}" href="/learn">Learn</a>
             <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('join') ? 'active' : ''}" href="/join">Join</a>            
             <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('explore') ? 'active' : ''}" href="/explore">Explore</a>
-            <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('community') ? 'active' : ''}" href="/community">Community</a>
+            <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('culture') ? 'active' : ''}" href="/culture">Culture</a>
         </div>
         <ProfileMenu on:logout on:login />
     </div>
