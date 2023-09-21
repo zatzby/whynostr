@@ -1,38 +1,17 @@
-# create-svelte
+Why Nostr?
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Because it is fun, free, global, evolving and ours.
 
-## Creating a project
+This is an attempt to make Nostr accessible for the masses. A friendly, easy to navigate interface where new and existing users can find the applications that interest them the most.
 
-If you're seeing this, you've probably already done this step. Congrats!
+If you would like to submit a Nostr site or application please contact me via DM on Nostr at npub10fu0hlkx3s4n4dsgfu0cpqephga4afr4qtzpz9vsyqf7vj88v2yqdp8vp4 or submit an issue/pull request here.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+General To Do:
+- [ ] Add more sites to the explore page, and more categories as they are built out.
+- [ ] Write guide on key management and add to learn page.
+- [ ] Add more sites to Culture page.
+- [ ] Add functionality for users to create lists of their favorite sites once logged in via NIP-07 extension.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+      
+High Level To Do:
+- [ ] Create a cyberspace explorer for whynostr resources based on Onosendai. Users can explore a finite digital cyberspace where each resource datapoint is an element within the space.
