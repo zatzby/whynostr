@@ -110,7 +110,7 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Robotechy',
                 url: 'https://robotechy.com/',
                 description:
-                    '3d printed Bitcoin and Nostr products and memorabilia with custom orders available.'
+                    '3D printed Bitcoin and Nostr products and memorabilia with custom orders available.'
             },
             {
                 title: 'Satoshi Coffee Co',
