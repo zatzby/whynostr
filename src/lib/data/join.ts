@@ -10,6 +10,11 @@ export const joinLinks: App.LinkList[] = [
                 description: 'The best decentralized social media for your Android phone.'
             },
             {
+                title: 'Camelus',
+                url: 'https://camelus.app/',
+                description: 'The Nostr app built for the community by the community.'
+            },
+            {
                 title: 'Current',
                 url: 'https://play.google.com/store/apps/details?id=io.getcurrent.current',
                 description: 'The power of Bitcoin + Nostr at your hands.'
@@ -94,6 +99,11 @@ export const joinLinks: App.LinkList[] = [
                 title: 'Primal',
                 url: 'https://primal.net',
                 description: 'Media hosting, audio recorder, and more.'
+            },
+            {
+                title: 'Rabbit',
+                url: 'https://syusui-s.github.io/rabbit/#/',
+                description: 'A TweetDeck-style Nostr client.'
             },
             {
                 title: 'Satellite',

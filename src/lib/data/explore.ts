@@ -44,7 +44,8 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'nsecBunker',
                 url: 'https://nsecbunker.com/',
-                description: 'Keep your Nostr keys in a single place and provide fine-grained access to your team members.'
+                description:
+                    'Keep your Nostr keys in a single place and provide fine-grained access to your team members.'
             },
             {
                 title: 'Nos2x',
@@ -109,7 +110,7 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Robotechy',
                 url: 'https://robotechy.com/',
                 description:
-                    '3d printed Bitcoin and Nostr products and memorabilia with custom orders available.'
+                    '3D printed Bitcoin and Nostr products and memorabilia with custom orders available.'
             },
             {
                 title: 'Satoshi Coffee Co',
@@ -310,6 +311,12 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Kagi',
                 url: 'https://kagi.com/',
                 description: 'Fast, accurate, and ad-free. The search engine you deserve.'
+            },
+            {
+                title: 'Songlink/Odesli',
+                url: 'https://odesli.co/',
+                description:
+                    'Share Nostr friendly automated, smart links for songs, albums and podcasts.'
             }
         ]
     },
@@ -411,6 +418,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Nostr.do',
                 url: 'https://nostr.do',
                 description: 'Share Nostr invites with anyone.'
+            },
+            {
+                title: 'Nostr.kiwi',
+                url: 'https://nostr.kiwi/',
+                description: 'A place for you to share notes and curate content.'
             },
             {
                 title: 'Nostrends',

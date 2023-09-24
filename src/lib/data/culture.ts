@@ -15,12 +15,12 @@ export const cultureLinks: App.LinkList[] = [
     {
         title: 'Other Stuff',
         links: [
-            // {
-            //     title: 'Nostr November',
-            //     url: 'https://nostrnovember.com/',
-            //     description:
-            //         "Nostr World unconferences celebrate Nostr's decentralization. Join in-person or online."
-            // },
+            {
+                title: 'Nostrich November',
+                url: 'https://nostrichnovember.com/',
+                description:
+                    'Home of the Nostrich November art challenge. Learn about the origin of the Nostr Nostrich and participate in the fun.'
+            },
             {
                 title: 'Nostr Zine Club',
                 url: 'https://nostrzine.club/',
