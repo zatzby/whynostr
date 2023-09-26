@@ -121,6 +121,17 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
+                title: 'Cyberspace',
+                links: [
+            {
+                title: 'Onosendai',
+                url: 'https://www.onosendai.tech/',
+                description:
+                    'A finite digital metaverse built on the Nostr protocol where every action has a real world cost via proof-of-work.'
+            }
+        ]
+    },
+    {
         title: 'Games',
         links: [
             {
@@ -184,17 +195,6 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Satellite',
                 url: 'https://satellite.earth/cdn',
                 description: 'Scalable media hosting for the Nostr ecosystem.'
-            }
-        ]
-    },
-    {
-        title: 'Metaverse',
-        links: [
-            {
-                title: 'Onosendai',
-                url: 'https://www.onosendai.tech/',
-                description:
-                    'A finite digital metaverse built on the Nostr protocol where every action has a real world cost via proof-of-work.'
             }
         ]
     },
