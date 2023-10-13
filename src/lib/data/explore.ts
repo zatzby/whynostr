@@ -400,11 +400,6 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'The social network you control.'
             },
             {
-                title: 'EXIT.pub',
-                url: 'https://exit.pub/',
-                description: "Leave Elon's walled garden and take your goodies with you."
-            },
-            {
                 title: 'Iris',
                 url: 'https://iris.to',
                 description: 'The Nostr client for better social networks.'
@@ -412,7 +407,7 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'Listr',
                 url: 'https://listr.lol',
-                description: 'Browse and manage Nostr lists.'
+                description: 'Curate, organize and discover everything Nostr has to offer. Listr is the best way to create, manage and browse Nostr lists.'
             },
             {
                 title: 'Nos',
@@ -550,11 +545,6 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Exit.pub',
                 url: 'https://exit.pub/',
                 description: "Leave Elon's walled garden and take your goodies with you."
-            },
-            {
-                title: 'Listr',
-                url: 'https://listr.lol',
-                description: 'A simple tool that allows you to browse and manage Nostr lists.'
             },
             {
                 title: 'Nashboard',
