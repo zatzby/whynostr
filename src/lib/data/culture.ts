@@ -26,6 +26,11 @@ export const cultureLinks: App.LinkList[] = [
                 url: 'https://nostrzine.club/',
                 description:
                     'A community project that aims to build an ongoing series of highly shareable Zines that exhibit the power of Nostr and the Nostr community.'
+            },
+            {
+                title: 'Plebchain Radio',
+                url: 'https://rss.com/podcasts/plebchainradio/',
+                description: "A weekly live audio show made for plebs, by plebs which focuses on the intersection of the Nostr protocol and Bitcoin plebs. Hosted by Quiet Warrior 'QW' and Avi Burra."
             }
         ]
     }
