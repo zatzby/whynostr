@@ -96,6 +96,11 @@ export const joinLinks: App.LinkList[] = [
                 description: 'The Nostr client for better social networks.'
             },
             {
+                title: 'Nostrudel',
+                url: 'https://nostrudel.ninja',
+                description: 'A simple, user friendly Nostr client for the web.'
+            },
+            {
                 title: 'Primal',
                 url: 'https://primal.net',
                 description: 'Media hosting, audio recorder, and more.'

@@ -52,6 +52,11 @@ export const exploreLinks: App.LinkList[] = [
                 url: 'https://chrome.google.com/webstore/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp',
                 description:
                     'A Chrome compatible signer extension that allows you to sign Nostr events on web-apps without having to give them your keys.'
+            },
+            {
+                title: 'Nostore',
+                url: 'https://apps.apple.com/us/app/nostore/id1666553677',
+                description: 'Keep your private keys safe and secret across many different web clients on iPhone, iPad and Mac with Nostore.'
             }
         ]
     },
@@ -313,6 +318,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'Fast, accurate, and ad-free. The search engine you deserve.'
             },
             {
+                title: 'Lightning Goats',
+                url: 'https://lightning-goats.com/',
+                description: 'View the live stream of the world famous Lightning Goats and zap sats to send them treats.'
+            },
+            {
                 title: 'Songlink/Odesli',
                 url: 'https://odesli.co/',
                 description:
@@ -390,6 +400,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'The social network you control.'
             },
             {
+                title: 'EXIT.pub',
+                url: 'https://exit.pub/',
+                description: "Leave Elon's walled garden and take your goodies with you."
+            },
+            {
                 title: 'Iris',
                 url: 'https://iris.to',
                 description: 'The Nostr client for better social networks.'
@@ -408,6 +423,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Nostr.band',
                 url: 'https://nostr.band',
                 description: 'Learn what is trending today.'
+            },
+            {
+                title: 'Nostr.cooking',
+                url: 'https://nostr.cooking/',
+                description: 'View, bookmark and post recipes in the Nostrverse.'
             },
             {
                 title: 'Nostr.directory',
@@ -466,6 +486,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'A feature packed Nostr client.'
             },
             {
+                title: 'Swarmstr',
+                url: 'https://swarmstr.com/',
+                description: 'Find answers to your questions. Assist others in resolving theirs.'
+            },
+            {
                 title: 'Vida',
                 url: 'https://vida.page',
                 description: 'Connect via paid messages, calls and live streams.'
@@ -520,6 +545,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'BTC Map',
                 url: 'https://btcmap.org',
                 description: 'Easily find places to spend your sats anywhere on the planet.'
+            },
+            {
+                title: 'Exit.pub',
+                url: 'https://exit.pub/',
+                description: "Leave Elon's walled garden and take your goodies with you."
             },
             {
                 title: 'Listr',
@@ -629,6 +659,16 @@ export const exploreLinks: App.LinkList[] = [
                     'Next Level Bitcoin Security. Build your own offline, air-gapped Bitcoin transaction signing device from off-the-shelf components for less than $50!'
             },
             {
+                title: 'Sendstr',
+                url: 'https://sendstr.com/',
+                description: 'End to end encrypted shared clipboard.'
+            },
+            {
+                title: 'Vendata',
+                url: 'https://vendata.io/',
+                description: 'Money in, data out. The freest market of data-processing AIs in the world.'
+            },
+            {
                 title: 'Zapit.live',
                 url: 'https://www.zapit.live',
                 description: 'Put any content behind a Bitcoin lightning paywall.'
@@ -724,6 +764,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'Send Markdown long-format or blog post notes.'
             },
             {
+                title: 'Shipyard',
+                url: 'https://shipyard.pub/',
+                description: 'A quiet space for loud ideas: the focused writing client for Nostr.'
+            },
+            {
                 title: 'Yakihonne',
                 url: 'https://yakihonne.com/',
                 description: 'Publish and curate long-form content.'
@@ -740,6 +785,11 @@ export const exploreLinks: App.LinkList[] = [
                     'View, complete and post Nostr bounties for work, tasks or projects within the Nostr ecosystem.'
             },
             {
+                title: 'Layer4Talent',
+                url: 'https://www.layer4talent.com/',
+                description: 'Technical and executive recruitment for Bitcoin companies.'
+            },
+            {
                 title: 'Nostr Bounties',
                 url: 'https://nostrbounties.com/',
                 description: 'Complete tasks and get paid with Bitcoin.'
@@ -748,7 +798,7 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'OpenSats',
                 url: 'https://opensats.org/',
                 description:
-                    'Find and support open-source Bitcoin projects. Helping to create a better tomorrow, today.'
+                    'Find and support open-source Bitcoin and Nostr projects. Helping to create a better tomorrow, today.'
             },
             {
                 title: 'Ostrich Work',
