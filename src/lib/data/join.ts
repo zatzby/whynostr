@@ -119,7 +119,12 @@ export const joinLinks: App.LinkList[] = [
                 title: 'Snort',
                 url: 'https://snort.social',
                 description: 'A feature packed Nostr client.'
-            }
+            },
+            {
+                title: 'Yo Sup',
+                url: 'https://yosup.app/',
+                description: 'A minimal experience for Nostr.'
+            }       
         ]
     },
     {
