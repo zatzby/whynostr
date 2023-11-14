@@ -12,6 +12,7 @@
             <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('explore') ? 'active' : ''}" href="/explore">Explore</a>
             <a class="navLink no-underline md:text-xl font-semibold {$page.url.pathname.includes('culture') ? 'active' : ''}" href="/culture">Culture</a>
         </div>
-        <ProfileMenu on:logout on:login />
+        <!-- login button left out until post-login features are added-->
+        <!-- <ProfileMenu on:logout on:login /> -->
     </div>
 </div>

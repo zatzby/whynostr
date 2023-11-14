@@ -56,7 +56,8 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'Nostore',
                 url: 'https://apps.apple.com/us/app/nostore/id1666553677',
-                description: 'Keep your private keys safe and secret across many different web clients on iPhone, iPad and Mac with Nostore.'
+                description:
+                    'Keep your private keys safe and secret across many different web clients on iPhone, iPad and Mac with Nostore.'
             }
         ]
     },
@@ -126,8 +127,8 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
-                title: 'Cyberspace',
-                links: [
+        title: 'Cyberspace',
+        links: [
             {
                 title: 'Onosendai',
                 url: 'https://www.onosendai.tech/',
@@ -320,7 +321,8 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'Lightning Goats',
                 url: 'https://lightning-goats.com/',
-                description: 'View the live stream of the world famous Lightning Goats and zap sats to send them treats.'
+                description:
+                    'View the live stream of the world famous Lightning Goats and zap sats to send them treats.'
             },
             {
                 title: 'Songlink/Odesli',
@@ -400,6 +402,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'The social network you control.'
             },
             {
+                title: 'Flockstr',
+                url: 'https://flockstr.com',
+                description: 'Own your Events. Only on Nostr. Explore events and meetups on Nostr.'
+            },
+            {
                 title: 'Iris',
                 url: 'https://iris.to',
                 description: 'The Nostr client for better social networks.'
@@ -407,7 +414,8 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'Listr',
                 url: 'https://listr.lol',
-                description: 'Curate, organize and discover everything Nostr has to offer. Listr is the best way to create, manage and browse Nostr lists.'
+                description:
+                    'Curate, organize and discover everything Nostr has to offer. Listr is the best way to create, manage and browse Nostr lists.'
             },
             {
                 title: 'Nos',
@@ -453,6 +461,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Nostr View',
                 url: 'https://nostrview.com',
                 description: 'Search popular notes, events and relays.'
+            },
+            {
+                title: 'Ontolo',
+                url: 'https://ontolo.social',
+                description: 'View and label Nostr events.'
             },
             {
                 title: 'Plebstr',
@@ -656,7 +669,8 @@ export const exploreLinks: App.LinkList[] = [
             {
                 title: 'Vendata',
                 url: 'https://vendata.io/',
-                description: 'Money in, data out. The freest market of data-processing AIs in the world.'
+                description:
+                    'Money in, data out. The freest market of data-processing AIs in the world.'
             },
             {
                 title: 'Zapit.live',
