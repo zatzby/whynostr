@@ -96,12 +96,6 @@ export const exploreLinks: App.LinkList[] = [
                     'Bitcoin security and fun devices. Makers of the Opendime, Coldcard, Blockclock and more.'
             },
             {
-                title: 'Nodeless',
-                url: 'https://nodeless.io/',
-                description:
-                    'Accept Bitcoin and Lightning payments in your online store, charity or fundariser, all without all of the complexities of managing a lightning node.'
-            },
-            {
                 title: 'LNbits - Nostr Market',
                 url: 'https://github.com/lnbits/nostrmarket',
                 description:
