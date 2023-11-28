@@ -308,6 +308,11 @@ export const exploreLinks: App.LinkList[] = [
         title: 'Other Stuff',
         links: [
             {
+                title: 'Dtan',
+                url: 'https://dtan.xyz/',
+                description: 'BitTorrent on Nostr.'
+            },
+            {
                 title: 'Graphene',
                 url: 'https://grapheneos.org/',
                 description:
@@ -418,6 +423,11 @@ export const exploreLinks: App.LinkList[] = [
                     'Curate, organize and discover everything Nostr has to offer. Listr is the best way to create, manage and browse Nostr lists.'
             },
             {
+                title: 'Memestr',
+                url: 'https://memestr.app/',
+                description: 'The Nostr hub for memes.'
+            },
+            {
                 title: 'Nos',
                 url: 'https://www.nos.social',
                 description: 'Join your peers in a healthy social network.'
@@ -494,6 +504,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'A feature packed Nostr client.'
             },
             {
+                title: 'Stargazr',
+                url: 'https://www.stargazr.xyz/',
+                description: 'Explore lyrics, interpretations and connect with other fans.'
+            },
+            {
                 title: 'Swarmstr',
                 url: 'https://swarmstr.com/',
                 description: 'Find answers to your questions. Assist others in resolving theirs.'
@@ -517,6 +532,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Zap.stream',
                 url: 'https://zap.stream',
                 description: 'A Nostr native streaming provider.'
+            },
+            {
+                title: 'Zephyr',
+                url: 'https://zephyr.coracle.social/',
+                description: 'A calming place to read Nostr.'
             }
         ]
     },
@@ -563,6 +583,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Nashboard',
                 url: 'https://nashboard.space',
                 description: 'A Nostr network dashboard.'
+            },
+            {
+                title: 'Njump',
+                url: 'https://njump.me/',
+                description: 'A hosted http gateway for browsing profiles, notes and relays.'
             },
             {
                 title: 'Nosbin',
@@ -667,6 +692,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'End to end encrypted shared clipboard.'
             },
             {
+                title: 'TaskTiger',
+                url: 'https://tasktiger.io/',
+                description: 'A DVM client for working with images.'
+            },
+            {
                 title: 'Vendata',
                 url: 'https://vendata.io/',
                 description:
@@ -721,9 +751,9 @@ export const exploreLinks: App.LinkList[] = [
             },
             {
                 title: 'Nodeless',
-                url: 'https://nodeless.io/',
+                url: 'https://github.com/nodeless-io/nodeless-monolith',
                 description:
-                    'Accept Bitcoin and Lightning payments in your online store, charity or fundraiser, all without all of the complexities of managing a lightning node. Get payments sent directly to your cold storage or lightning address.'
+                    'The github repository for the Nodeless monolith that you can deploy on your own server.'
             },
             {
                 title: 'Mutiny Wallet',
