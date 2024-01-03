@@ -16,6 +16,11 @@ export const cultureLinks: App.LinkList[] = [
         title: 'Other Stuff',
         links: [
             {
+                title: 'Nostr_HK',
+                url: 'https://nostr.hk/',
+                description: 'Home of the Nostr_HK community. Drop in, say hello and learn more.'
+            },
+            {
                 title: 'Nostrich November',
                 url: 'https://nostrichnovember.com/',
                 description:
@@ -30,7 +35,8 @@ export const cultureLinks: App.LinkList[] = [
             {
                 title: 'Plebchain Radio',
                 url: 'https://rss.com/podcasts/plebchainradio/',
-                description: "A weekly live audio show made for plebs, by plebs which focuses on the intersection of the Nostr protocol and Bitcoin plebs. Hosted by Quiet Warrior 'QW' and Avi Burra."
+                description:
+                    "A weekly live audio show made for plebs, by plebs which focuses on the intersection of the Nostr protocol and Bitcoin plebs. Hosted by Quiet Warrior 'QW' and Avi Burra."
             }
         ]
     }

@@ -22,6 +22,45 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
+        title: 'Audio and Video Streaming',
+        links: [
+            {
+                title: 'Corny Chat',
+                url: 'https://cornychat.com',
+                description:
+                    'Open source audio spaces integrated with Nostr with zap support and room customization options.'
+            },
+            {
+                title: 'Flare',
+                url: 'https://flare.pub/',
+                description:
+                    'Flare is the next era of video streaming. Host your content, post it to Nostr, and share it with the world.'
+            },
+            {
+                title: 'Nostr Nests',
+                url: 'https://nostrnests.com/',
+                description: 'Host and join audio spaces.'
+            },
+            {
+                title: 'Tunestr',
+                url: 'https://welcome.tunestr.io/',
+                description:
+                    'Value for value live music. View live music streams and support your favorite artists.'
+            },
+            {
+                title: 'Vida',
+                url: 'https://vida.page',
+                description: 'Connect via paid messages, calls and live streams.'
+            },
+            {
+                title: 'Zap.stream',
+                url: 'https://zap.stream/',
+                description:
+                    'View current streams and start new live streams while chatting, zapping and interacting.'
+            }
+        ]
+    },
+    {
         title: 'Browser Extensions and Key Management',
         links: [
             {
@@ -121,8 +160,13 @@ export const exploreLinks: App.LinkList[] = [
         ]
     },
     {
-        title: 'Cyberspace',
+        title: 'Cyberspace & Dataspace',
         links: [
+            {
+                title: 'Yondar',
+                url: 'https://go.yondar.me/',
+                description: 'Your Places. Your Friends, Your World.'
+            },
             {
                 title: 'Onosendai',
                 url: 'https://www.onosendai.tech/',
@@ -135,9 +179,16 @@ export const exploreLinks: App.LinkList[] = [
         title: 'Games',
         links: [
             {
-                title: 'Choose Your Own Adventure',
-                url: 'https://snort.social/p/npub1l6jqp0h7kkl3zkck2a0zza4lhk8m32ueskkpwzkmgq4l3jymn59q7ezyfy',
-                description: 'Play quick AI-powered RPG games over Nostr.'
+                title: 'Crashglow',
+                url: 'https://crashglow.com/',
+                description:
+                    'A distributed Arcade on Nostr where users can play and publish games. Powered by Magic.'
+            },
+            {
+                title: 'Gamemasters.social',
+                url: 'https://gamemasters.social',
+                description:
+                    'Games on Nostr that zap Satoshis. Play 100+ quick AI-powered text based RPG games, answer Trivia questions, and view leaderboards.'
             },
             {
                 title: 'Jester',
@@ -149,16 +200,6 @@ export const exploreLinks: App.LinkList[] = [
                 url: 'https://www.thndr.games/bitcoin-games/bitcoin-blocks',
                 description:
                     'Do you like puzzle games, collecting free bitcoin, and earning Nostr badges? Then we have the perfect puzzle game for you!'
-            },
-            {
-                title: 'Trivia Masters',
-                url: 'https://triviamasters.social',
-                description: 'Answer trivia questions and win Bitcoin prizes.'
-            },
-            {
-                title: 'Wine Masters',
-                url: 'https://winemasters.social',
-                description: 'Answer Wine themed trivia questions and win Bitcoin prizes.'
             }
         ]
     },
@@ -324,10 +365,22 @@ export const exploreLinks: App.LinkList[] = [
                     'View the live stream of the world famous Lightning Goats and zap sats to send them treats.'
             },
             {
+                title: 'PlebAI',
+                url: 'https://home.plebai.com',
+                description:
+                    'Open Source LLMs empowering democatized AI access for all, outside of the control of Silicon Valley elites and their exploitive, closed systems.'
+            },
+            {
                 title: 'Songlink/Odesli',
                 url: 'https://odesli.co/',
                 description:
                     'Share Nostr friendly automated, smart links for songs, albums and podcasts.'
+            },
+            {
+                title: 'Unleashed Chat',
+                url: 'https://unleashed.chat/',
+                description:
+                    'One button to deploy your own chat. Unleashed Chat is an AI chatbot service built with real privacy in mind.'
             }
         ]
     },
@@ -420,6 +473,12 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Memestr',
                 url: 'https://memestr.app/',
                 description: 'The Nostr hub for memes.'
+            },
+            {
+                title: 'Mostr',
+                url: 'https://mostr.pub',
+                description:
+                    'A bridge between Nostr and the Fediverse. Find a Fediverse account on Nostr. '
             },
             {
                 title: 'Nos',
@@ -534,27 +593,7 @@ export const exploreLinks: App.LinkList[] = [
             }
         ]
     },
-    {
-        title: 'Streaming',
-        links: [
-            {
-                title: 'Nostr Nests',
-                url: 'https://nostrnests.com/',
-                description: 'Host and join audio spaces.'
-            },
-            {
-                title: 'Vida',
-                url: 'https://vida.page',
-                description: 'Connect via paid messages, calls and live streams.'
-            },
-            {
-                title: 'Zap.stream',
-                url: 'https://zap.stream/',
-                description:
-                    'View current streams and start new live streams while chatting, zapping and interacting.'
-            }
-        ]
-    },
+
     {
         title: 'Tools',
         links: [
@@ -574,14 +613,21 @@ export const exploreLinks: App.LinkList[] = [
                 description: "Leave Elon's walled garden and take your goodies with you."
             },
             {
+                title: 'Mostr',
+                url: 'https://mostr.pub/',
+                description:
+                    'A bridge between Nostr and the Fediverse. Find a Fediverse account on Nostr.'
+            },
+            {
                 title: 'Nashboard',
-                url: 'https://nashboard.space',
+                url: 'https://nashboard.space/',
                 description: 'A Nostr network dashboard.'
             },
             {
                 title: 'Njump',
                 url: 'https://njump.me/',
-                description: 'A hosted http gateway for browsing profiles, notes and relays.'
+                description:
+                    'A hosted http gateway for browsing profiles, notes and relays. Sister site to nostr.at.'
             },
             {
                 title: 'Nosbin',
@@ -592,6 +638,12 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Nostr Army Knife',
                 url: 'https://nak.nostr.com',
                 description: 'Generate events and keypairs.'
+            },
+            {
+                title: 'Nostr.At',
+                url: 'https://nostr.at',
+                description:
+                    'A hosted http gateway for browsing profiles, notes and relays. Sister site to njump.me.'
             },
             {
                 title: 'Nostr Event Deletion',
@@ -695,6 +747,12 @@ export const exploreLinks: App.LinkList[] = [
                 url: 'https://vendata.io/',
                 description:
                     'Money in, data out. The freest market of data-processing AIs in the world.'
+            },
+            {
+                title: 'Voltage Nostr Toolkit',
+                url: 'https://voltage.cloud/nostr/',
+                description:
+                    'Create your own Nostr address (NIP05) username, get zaps to your OWN lightning node, and use your nostr address as a lightning address.'
             },
             {
                 title: 'Zapit.live',
@@ -807,12 +865,6 @@ export const exploreLinks: App.LinkList[] = [
         title: 'Work',
         links: [
             {
-                title: 'Bountstr',
-                url: 'https://bountsr.org/',
-                description:
-                    'View, complete and post Nostr bounties for work, tasks or projects within the Nostr ecosystem.'
-            },
-            {
                 title: 'Layer4Talent',
                 url: 'https://www.layer4talent.com/',
                 description: 'Technical and executive recruitment for Bitcoin companies.'
@@ -821,6 +873,12 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Nostr Bounties',
                 url: 'https://nostrbounties.com/',
                 description: 'Complete tasks and get paid with Bitcoin.'
+            },
+            {
+                title: 'Nostrocket',
+                url: 'https://nostrocket.org',
+                description:
+                    'Nostrocket enters new territories of freedom by using Bitcoin and Nostr to coordinate leaderless, location independent Bitcoin-based economies that reward solutions to problems facing humanity.'
             },
             {
                 title: 'OpenSats',
