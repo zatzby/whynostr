@@ -7,6 +7,7 @@ This is an attempt to make Nostr accessible for the masses. A friendly, easy to 
 If you would like to submit a Nostr site or application please contact me via DM on Nostr at npub10fu0hlkx3s4n4dsgfu0cpqephga4afr4qtzpz9vsyqf7vj88v2yqdp8vp4 or submit an issue/pull request here.
 
 General To Do:
+- [ ] Rewrite landing page with more clear info for new users and developers alike.
 - [ ] Add more sites to the explore page, and more categories as they are built out.
 - [ ] Write guide on key management and add to learn page.
 - [ ] Add more sites to Culture page.
