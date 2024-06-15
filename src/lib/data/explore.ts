@@ -81,6 +81,12 @@ export const exploreLinks: App.LinkList[] = [
                     'Keep your keys safe with the best Nostr Extension for Chromium Browsers.'
             },
             {
+                title: 'Nsec.app',
+                url: 'https://nsec.app/',
+                description:
+                    'The universe of Nostr applications is growing, join it with Nsec.app - a safe non-custodial key storage with remote signing.'
+            },
+            {
                 title: 'nsecBunker',
                 url: 'https://nsecbunker.com/',
                 description:
@@ -207,11 +213,6 @@ export const exploreLinks: App.LinkList[] = [
         title: 'Media Hosting',
         links: [
             {
-                title: 'Inosta',
-                url: 'https://inosta.cc/',
-                description: 'Pay a lightning invoice to upload a file to use on Nostr.'
-            },
-            {
                 title: 'Nostr.build',
                 url: 'https://nostr.build',
                 description: 'A free media uploader and hosting platform for all things Nostr.'
@@ -223,19 +224,14 @@ export const exploreLinks: App.LinkList[] = [
                     'Media hosting, Nostr address provider, key converter, private relay and more.'
             },
             {
-                title: 'Nostrfiles',
-                url: 'https://nostrfiles.dev',
-                description: 'Media hosting, audio recorder, and more.'
-            },
-            {
-                title: 'Nostrimg',
-                url: 'https://nostrimg.com',
-                description: 'Uploader and GIF-ify generator.'
-            },
-            {
                 title: 'Satellite',
                 url: 'https://satellite.earth/cdn',
                 description: 'Scalable media hosting for the Nostr ecosystem.'
+            },
+            {
+                title: 'Voidcat',
+                url: 'https://void.cat/',
+                description: 'Free simple file hosting.'
             }
         ]
     },
@@ -514,6 +510,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Nostrends',
                 url: 'https://nostrends.vercel.app',
                 description: "What's trending on Nostr"
+            },
+            {
+                title: 'Nostrmeet.me',
+                url: 'https://nostrmeet.me/',
+                description: 'An app for sharing Nostr with friends.'
             },
             {
                 title: 'Nostr Nests',
