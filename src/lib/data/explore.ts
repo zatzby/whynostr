@@ -871,11 +871,6 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'Technical and executive recruitment for Bitcoin companies.'
             },
             {
-                title: 'Nostr Bounties',
-                url: 'https://nostrbounties.com/',
-                description: 'Complete tasks and get paid with Bitcoin.'
-            },
-            {
                 title: 'Nostrocket',
                 url: 'https://nostrocket.org',
                 description:
