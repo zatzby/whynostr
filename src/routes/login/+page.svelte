@@ -1,10 +1,10 @@
 <script lang='ts'>
-    import { learnLinks } from "$lib/data/learn";
+    import { loginLinks } from "$lib/data/login";
 </script>
 
 <h1>Learn about the protocol</h1>
 
-{#each learnLinks as linkList}
+{#each loginLinks as linkList}
     <h2>{linkList.title}</h2>
     <ul>
         {#each linkList.links as link}
