@@ -2,7 +2,7 @@
   import { exploreLinks } from "$lib/data/explore";
 </script>
 
-<h1>Find your client</h1>
+<h1>Explore the ecosystem</h1>
 
 {#each exploreLinks as linkList}
   <h2>{linkList.title}</h2>
