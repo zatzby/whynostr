@@ -1,4 +1,4 @@
-export const loginLinks: App.LinkList[] = [
+export const learnLinks: App.LinkList[] = [
     {
         title: 'Start Here',
         links: [
