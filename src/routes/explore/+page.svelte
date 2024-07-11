@@ -1,10 +1,10 @@
 <script lang='ts'>
-  import { joinLinks } from "$lib/data/join";
+  import { exploreLinks } from "$lib/data/explore";
 </script>
 
 <h1>Find your client</h1>
 
-{#each joinLinks as linkList}
+{#each exploreLinks as linkList}
   <h2>{linkList.title}</h2>
   <ul>
       {#each linkList.links as link}
