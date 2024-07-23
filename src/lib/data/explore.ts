@@ -37,6 +37,11 @@ export const exploreLinks: App.LinkList[] = [
                     'Flare is the next era of video streaming. Host your content, post it to Nostr, and share it with the world.'
             },
             {
+                title: 'HiveTalk',
+                url: 'https://hivetalk.org',
+                description: 'Free Browser based Real-time video calls. No download, plug-in, or login is required.'
+            },
+            {
                 title: 'Nostr Nests',
                 url: 'https://nostrnests.com/',
                 description: 'Host and join audio spaces.'
