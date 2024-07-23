@@ -37,6 +37,12 @@ export const cultureLinks: App.LinkList[] = [
                 url: 'https://rss.com/podcasts/plebchainradio/',
                 description:
                     "A weekly live audio show made for plebs, by plebs which focuses on the intersection of the Nostr protocol and Bitcoin plebs. Hosted by Quiet Warrior 'QW' and Avi Burra."
+            },
+            {
+                title: 'Thank God for Nostr',
+                url: 'https://tgfb.com/podcasts/thank-god-for-nostr/',
+                description:
+                    "Join Jon and Jordan and leaders from the Nostr, Bitcoin, and Christian worlds for free-flowing discussions that investigate why so many consider it an advancement on par with the creation of the internet."
             }
         ]
     }
