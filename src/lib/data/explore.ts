@@ -37,6 +37,11 @@ export const exploreLinks: App.LinkList[] = [
                     'Flare is the next era of video streaming. Host your content, post it to Nostr, and share it with the world.'
             },
             {
+                title: 'HiveTalk',
+                url: 'https://hivetalk.org/',
+                description: 'Free Browser based Real-time video calls.'
+            },
+            {
                 title: 'Nostr Nests',
                 url: 'https://nostrnests.com/',
                 description: 'Host and join audio spaces.'
@@ -158,10 +163,9 @@ export const exploreLinks: App.LinkList[] = [
                     '3D printed Bitcoin and Nostr products and memorabilia with custom orders available.'
             },
             {
-                title: 'Satoshi Coffee Co',
-                url: 'https://sats.coffee/',
-                description:
-                    'Purchase fresh-roasted coffee with the lightning network or on-chain BTC.'
+                title: 'shopstr.store',
+                url: 'https://shopstr.store',
+                description: 'Buy and sell anything, anywhere, anytime.'
             }
         ]
     },
@@ -239,9 +243,14 @@ export const exploreLinks: App.LinkList[] = [
         title: 'Music and Podcasting',
         links: [
             {
+                title: 'Fanfares',
+                url: 'https://fanfares.io/',
+                description: 'Welcome to the Inernet-Money Era of Podcasting. Nostr-based and Open Source.'
+            },
+            {
                 title: 'Fountain',
                 url: 'https://www.fountain.fm/',
-                description: 'The podcast app that pays.'
+                description: 'Podcasts powered by community. Fountain is the podcast app that connects creators with a global community of fans and supporters.'
             },
             {
                 title: 'Harmonique',
@@ -367,6 +376,12 @@ export const exploreLinks: App.LinkList[] = [
                     'Open Source LLMs empowering democatized AI access for all, outside of the control of Silicon Valley elites and their exploitive, closed systems.'
             },
             {
+                title: 'Satoshi Coffee Co',
+                url: 'https://sats.coffee/',
+                description:
+                    'Purchase fresh-roasted coffee with the lightning network or on-chain BTC.'
+            },
+            {
                 title: 'Songlink/Odesli',
                 url: 'https://odesli.co/',
                 description:
@@ -431,17 +446,22 @@ export const exploreLinks: App.LinkList[] = [
             },
             {
                 title: 'Badges.page',
-                url: 'https://badges.page',
+                url: 'https://badges.page/',
                 description: 'Create, collect and award badges.'
             },
             {
+                title: 'Comingle',
+                url: 'https://comingle.co/',
+                description: 'An events app powered by Nostr.'
+            },
+            {
                 title: 'Coracle',
-                url: 'https://coracle.social',
+                url: 'https://coracle.social/',
                 description: 'A high-quality social media experience for the web.'
             },
             {
                 title: 'Current',
-                url: 'https://app.getcurrent.io',
+                url: 'https://app.getcurrent.io/',
                 description: 'The power of Bitcoin + Nostr at your hands.'
             },
             {
@@ -551,6 +571,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Satellite',
                 url: 'https://satellite.earth',
                 description: 'Find your community and join the conversation.'
+            },
+            {
+                title: 'Satlantis',
+                url: 'https://www.satlantis.io/place',
+                description: 'Find, compare, join and build local communities on a Bitcoin Standard.'
             },
             {
                 title: 'Snort',
@@ -718,6 +743,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'This is a tool that allows you to zap any npub, nevent or NOTE ID.'
             },
             {
+                title: 'Quotestr',
+                url: 'https://quotestr.vercel.app',
+                description: 'Make It A Quote! Take a Nostr event and turn it into a quote to share.'
+            },
+            {
                 title: 'Rana',
                 url: 'https://github.com/grunch/rana',
                 description: 'A CLI-based vanity key generator.'
@@ -754,7 +784,7 @@ export const exploreLinks: App.LinkList[] = [
                 url: 'https://voltage.cloud/nostr/',
                 description:
                     'Create your own Nostr address (NIP05) username, get zaps to your OWN lightning node, and use your nostr address as a lightning address.'
-            },
+            },   
             {
                 title: 'Zapit.live',
                 url: 'https://www.zapit.live',
@@ -798,9 +828,25 @@ export const exploreLinks: App.LinkList[] = [
                     'The power of Bitcoin + Nostr at your hands. Nostr client and lightning wallet.'
             },
             {
+                title: 'eNuts',
+                url: 'https://www.enuts.cash/',
+                description: 'Ecash. Private. Simple. Powered by the Lightning Network, using the Cashu protocol.'
+            },
+            {
                 title: 'LifPay',
                 url: 'https://lifpay.me/en/',
                 description: 'A Bitcoin lightning wallet with Nostr compatibility.'
+            },
+            {
+                title: 'Mutiny Wallet',
+                url: 'https://www.mutinywallet.com/',
+                description:
+                    'Unstoppable bitcoin. For everyone. Mutiny is a self-custodial Nostr compatible lightning wallet that runs in the browser.'
+            },
+            {
+                title: 'npub.cash',
+                url: 'https://npub.cash/',
+                description: 'A Nostr native Lightning Address for everyone - powered by eCash and Nostr.'
             },
             {
                 title: 'Nodeless',
@@ -809,10 +855,9 @@ export const exploreLinks: App.LinkList[] = [
                     'The github repository for the Nodeless monolith that you can deploy on your own server.'
             },
             {
-                title: 'Mutiny Wallet',
-                url: 'https://www.mutinywallet.com/',
-                description:
-                    'Unstoppable bitcoin. For everyone. Mutiny is a self-custodial Nostr compatible lightning wallet that runs in the browser.'
+                title: 'PlebPay',
+                url: 'https://plebpay.com',
+                description: 'Create a Bitcoin Lightning paywall and get paid directly to your Strike account.'
             },
             {
                 title: 'Wallet of Satoshi',

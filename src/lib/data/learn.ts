@@ -13,6 +13,11 @@ export const learnLinks: App.LinkList[] = [
                 url: 'https://nostr.com',
                 description:
                     'Learn about Nostr: A simple, open protocol that enables a truly censorship-resistant and global social network.'
+            },
+            {
+                title: 'NostrExplained.com',
+                url: 'https://nostrexplained.com',
+                description: 'A visual explanation of Nostr and how it works.'
             }
         ]
     },
