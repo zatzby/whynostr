@@ -1,4 +1,4 @@
-import { DescriptionList, P } from 'flowbite-svelte';
+ import { DescriptionList, P } from 'flowbite-svelte';
 
 export const exploreLinks: App.LinkList[] = [
     {
@@ -399,6 +399,11 @@ export const exploreLinks: App.LinkList[] = [
         title: 'Relays',
         links: [
             {
+                title: 'Khatru',
+                url: 'https://khatru.nostr.technology',
+                description: 'a framework for making Nostr relays. Write your custom relay with code over configuration."
+            },
+            {
                 title: 'Nostr.info',
                 url: 'https://nostr.info/relays/',
                 description: 'View relays and filter by performance.'
@@ -433,7 +438,11 @@ export const exploreLinks: App.LinkList[] = [
                 url: 'https://relay.tools/',
                 description:
                     'View available public relays and deploy your own relay with a few mouse clicks.'
-            }
+            },
+            {
+                title: 'WOT',
+                url: 'https://github.com/bitvora/wot-relay',
+                description: '
         ]
     },
     {
