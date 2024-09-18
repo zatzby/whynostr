@@ -443,6 +443,7 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'WOT',
                 url: 'https://github.com/bitvora/wot-relay',
                 description: 'A relay archiving every note in your web of trust.'
+            }
         ]
     },
     {
