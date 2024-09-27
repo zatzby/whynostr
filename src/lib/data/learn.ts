@@ -22,7 +22,7 @@ export const learnLinks: App.LinkList[] = [
         ]
     },
     {
-        title: 'Deep Dive',
+        title: 'Deep Dive for Builders',
         links: [
             {
                 title: 'Nostr Github',
@@ -55,19 +55,59 @@ export const learnLinks: App.LinkList[] = [
         ]
     },
     {
-        title: 'Other Resources',
+        title: 'Articles',
         links: [
             {
-                title: 'Why Nostr Matters',
+                title: 'Why Nostr Matters by Jameson Lopp',
                 url: 'https://blog.lopp.net/why-nostr-matters/',
                 description:
                     'Nostr is a new protocol for censorship resistant speech and social sharing. It has great potential but has plenty of challenges to overcome.'
             },
             {
-                title: 'Why we need Nostr',
+                title: 'Nostr Ensures a Free Internet for the Future by Trey Walsh',
+                url: 'https://bitcoinmagazine.com/culture/how-nostr-breaks-the-vicious-cycles-of-social-media',
+                description: 'Nostr is an emerging open-source tool that can ensure free communication without censorship from Big Tech corporations or governments.'
+            },
+            {
+                title: 'Why We Need Nostr',
                 url: 'https://nostr.how/en/why-nostr',
                 description:
                     'Why Nostr and the broader idea of decentralizing the internet is an important concept.'
+            },
+            {
+                title: 'Your Guide to Nostr by Roger Huang',
+                url: 'https://www.forbes.com/sites/digital-assets/2024/07/17/your-guide-to-nostr-the-decentralized-network-for-everything/',
+                description: 'Your guide to Nostr - the decentralized network for everything!' 
+            },
+            {
+                title: 'Nostr Series - Part 1 by Michael Stewart',
+                url: 'https://medium.com/@michael.leigh.stewart/nostr-series-part-1-a-gentle-introduction-to-nostr-4ad6da8c923b',
+                description: 'A gentle introduction into the Nostr protocol.'
+            },
+            {
+                title: 'An introduction to the protocol by Cristian Olaru',
+                url: 'https://medium.com/@colaru/an-introduction-to-nostr-protocol-dbc774ac797c',
+                description: "Nostr's Mission: Restoring the Promise of the Free and Open Internet"
+            },
+            {  
+                title: '3-Minute Nostr Guide by Denostr',
+                url: 'https://denostr.medium.com/3-minute-guide-to-nostr-the-open-social-protocol-backed-by-jack-dorsey-4f4c28f48c65',
+                description: 'A 3-minute guide to Nostr, the open social protocol backed by Jack Dorsey.'
+            },
+            {
+                title: 'Introducing Nostr: The Free Speech Protocol by Sovereign Matt',
+                url: 'https://medium.com/@SovereignMatt/introducing-nostr-a-decentralised-social-network-for-sovereign-individuals-3b75b49dee9c',
+                description: 'An introduction to the what, how and why of Nostr with regards to free speech.'
+            },
+            {
+                title: 'Why I Am Already a Nostr Maximalist by Source Node',
+                url: 'https://bitcoinmagazine.com/culture/why-i-am-already-a-nostr-maximalist',
+                description: 'Nostr may not be perfect, but it does represent a massive improvement over existing centralized platforms when it comes to data and identity ownership.'
+            },
+            {
+                title: 'What is Nostr by plebpoet',
+                url: 'https://bitcoinnews.com/learn/what-is-nostr/',
+                description:'Nostrs basic concepts explained.'
             }
         ]
     }
