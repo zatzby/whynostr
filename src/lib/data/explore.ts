@@ -405,7 +405,7 @@ export const exploreLinks: App.LinkList[] = [
             },
             {
                 title: 'Nostr.watch',
-                url: 'https://nostr.watch',
+                url: 'https://legacy.nostr.watch/relays/find/',
                 description: 'Explore public and private relays.'
             },
             {
