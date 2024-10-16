@@ -413,11 +413,12 @@ export const exploreLinks: App.LinkList[] = [
                 url: 'https://relayable.org',
                 description: 'A latency optimizing network of global relays.'
             },
-            {
-                title: 'Relay.exchange',
-                url: 'https://relay.exchange',
-                description: 'A paid relay service providers comparison table.'
-            },
+            // {
+               // title: 'Relay.exchange',
+               // url: 'https://relay.exchange',
+               // description: 'A paid relay service providers comparison table.'
+            // }, 
+            // deleted until if/when it is brought back online
             {
                 title: 'Relaying.io',
                 url: 'https://relaying.io',
