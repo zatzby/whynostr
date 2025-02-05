@@ -228,6 +228,11 @@ export const exploreLinks: App.LinkList[] = [
                     'Media hosting, Nostr address provider, key converter, private relay and more.'
             },
             {
+                title: 'NostrMedia',
+                url: 'https://nostrmedia.com/',
+                description: 'Image and Video hosting for Nostr for Blossom and NIP-96 compatible clients.'
+            },    
+            {
                 title: 'Satellite',
                 url: 'https://satellite.earth/cdn',
                 description: 'Scalable media hosting for the Nostr ecosystem.'
@@ -298,6 +303,11 @@ export const exploreLinks: App.LinkList[] = [
     {
         title: 'Nostr Address',
         links: [
+            {
+                title: 'NostrAdress',
+                url: 'https://nostraddress.com/',
+                description: 'Get a Nostr address and a fast relay. Offers free and paid options.
+            },
             {
                 title: 'Nostrcheck',
                 url: 'https://nostrcheck.me',
@@ -399,6 +409,11 @@ export const exploreLinks: App.LinkList[] = [
         title: 'Relays',
         links: [
             {
+                title: 'Khatru',
+                url: 'https://khatru.nostr.technology',
+                description: 'A framework for making Nostr relays'
+            },
+            {
                 title: 'Nostr.info',
                 url: 'https://nostr.info/relays/',
                 description: 'View relays and filter by performance.'
@@ -423,6 +438,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Relaying.io',
                 url: 'https://relaying.io',
                 description: 'Host your own private relay and never lose your notes.'
+            },
+            {
+                title: 'Nosflare',
+                url: 'https://github.com/Spl0itable/nosflare',
+                description: 'A serverless Nostr relay purpose-built for Cloudflare Workers and a Cloudflare R2 bucket.'
             },
             {
                 title: 'Nostrrr',
@@ -628,6 +648,11 @@ export const exploreLinks: App.LinkList[] = [
                 title: 'Advanced Nostr Search',
                 url: 'https://advancednostrsearch.vercel.app/',
                 description: 'A tool to help you find Nostr notes.'
+            },
+            {
+                title: 'Anonostr',
+                url: 'https://anonostr.com/',
+                description: "Send anonymous notes on Nostr. Each note submission generates a new key pair that's securely burned."
             },
             {
                 title: 'BTC Map',
