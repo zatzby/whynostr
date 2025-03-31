@@ -610,6 +610,11 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'A tool to help you find Nostr notes.'
             },
             {
+                title: 'Anonostr',
+                url: 'https://anonostr.com',
+                description: 'Send anonymous notes on Nostr'
+            },
+            {
                 title: 'BTC Map',
                 url: 'https://btcmap.org',
                 description: 'Easily find places to spend your sats anywhere on the planet.'
