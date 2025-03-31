@@ -249,11 +249,6 @@ export const exploreLinks: App.LinkList[] = [
                 description: 'Turn up the value for your biggest fans.'
             },
             {
-                title: 'Wavman',
-                url: 'https://www.wavman.app',
-                description: 'An open-source music player built for Nostr.'
-            },
-            {
                 title: 'Zapstr.live',
                 url: 'https://zapstr.live',
                 description: 'Sign in, listen, upload and chat.'
@@ -378,6 +373,11 @@ export const exploreLinks: App.LinkList[] = [
     {
         title: 'Relays',
         links: [
+            {
+                title: 'Nosflare',
+                url: 'https://github.com/Spl0itable/nosflare',
+                description: 'Nostr relay powered by Cloudflare Worker and R2 bucket'
+            },
             {
                 title: 'Nostr.info',
                 url: 'https://nostr.info/relays/',
