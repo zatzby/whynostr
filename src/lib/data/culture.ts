@@ -16,15 +16,14 @@ export const cultureLinks: App.LinkList[] = [
         title: 'Other Stuff',
         links: [
             {
+                title: 'Nostr Artstr',
+                url: 'https://www.nostrartstr.com',
+                description: 'Art challenges by Rustypuppy.'
+            },
+            {
                 title: 'Nostr_HK',
                 url: 'https://nostr.hk/',
                 description: 'Home of the Nostr_HK community. Drop in, say hello and learn more.'
-            },
-            {
-                title: 'Nostrich November',
-                url: 'https://nostrichnovember.com/',
-                description:
-                    'Home of the Nostrich November art challenge. Learn about the origin of the Nostr Nostrich and participate in the fun.'
             },
             {
                 title: 'Nostr Zine Club',
