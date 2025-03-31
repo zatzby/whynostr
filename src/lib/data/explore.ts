@@ -279,7 +279,7 @@ export const exploreLinks: App.LinkList[] = [
         title: 'Nostr Address',
         links: [
             {
-                title: 'Nostr Addresss',
+                title: 'Nostr Address',
                 url: 'https://nostraddress.com',
                 description: 'Get a Nostr address and a fast relay.'
             },
