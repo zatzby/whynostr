@@ -2,26 +2,6 @@ import { DescriptionList, P } from 'flowbite-svelte';
 
 export const exploreLinks: App.LinkList[] = [
     {
-        title: 'Art',
-        links: [
-            {
-                title: 'Npub Visualizer',
-                url: 'https://yunginter.net/art/001',
-                description: 'Generate lineal art based on your npub.'
-            },
-            {
-                title: 'Polygonal Zap Count',
-                url: 'https://yunginter.net/art/002',
-                description: 'View your zap count data as polygonal shapes.'
-            },
-            {
-                title: 'Polygonal Sat Amount',
-                url: 'https://yunginter.net/art/003',
-                description: 'View your sat amount data as polygonal shapes.'
-            }
-        ]
-    },
-    {
         title: 'Audio and Video Streaming',
         links: [
             {
@@ -48,14 +28,9 @@ export const exploreLinks: App.LinkList[] = [
             },
             {
                 title: 'Tunestr',
-                url: 'https://welcome.tunestr.io/',
+                url: 'https://tunestr.io/',
                 description:
                     'Value for value live music. View live music streams and support your favorite artists.'
-            },
-            {
-                title: 'Vida',
-                url: 'https://vida.page',
-                description: 'Connect via paid messages, calls and live streams.'
             },
             {
                 title: 'Zap.stream',
