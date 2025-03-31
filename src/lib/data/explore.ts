@@ -264,11 +264,6 @@ export const exploreLinks: App.LinkList[] = [
         title: 'News',
         links: [
             {
-                title: 'Nostr Report',
-                url: 'https://nostr.report/',
-                description: 'Your #1 source for Daily Nostr news. Built by plebs, for plebs.'
-            },
-            {
                 title: 'Stacker News',
                 url: 'https://stacker.news/',
                 description: "It's like Hacker News but we pay you Bitcoin."
