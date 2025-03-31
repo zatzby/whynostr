@@ -203,6 +203,11 @@ export const exploreLinks: App.LinkList[] = [
                     'Media hosting, Nostr address provider, key converter, private relay and more.'
             },
             {
+                title: 'NostrMedia',
+                url:'https://nostrmedia.com',
+                description: 'Image and Video hosting for Nostr'
+            },
+            {
                 title: 'Satellite',
                 url: 'https://satellite.earth/cdn',
                 description: 'Scalable media hosting for the Nostr ecosystem.'
@@ -273,6 +278,11 @@ export const exploreLinks: App.LinkList[] = [
     {
         title: 'Nostr Address',
         links: [
+            {
+                title: 'Nostr Addresss',
+                url: 'https://nostraddress.com',
+                description: 'Get a Nostr address and a fast relay.'
+            },
             {
                 title: 'Nostrcheck',
                 url: 'https://nostrcheck.me',
