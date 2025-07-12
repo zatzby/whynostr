@@ -14,27 +14,6 @@ export const joinLinks: App.LinkList[] = [
                 url: 'https://camelus.app/',
                 description: 'The Nostr app built for the community by the community.'
             },
-            {
-                title: 'Current',
-                url: 'https://play.google.com/store/apps/details?id=io.getcurrent.current',
-                description: 'The power of Bitcoin + Nostr at your hands.'
-            },
-            {
-                title: 'Iris',
-                url: 'https://play.google.com/store/apps/details?id=to.iris.twa&hl=en_US&gl=US',
-                description: 'The Nostr client for better social networks.'
-            },
-            {
-                title: 'Nostrmo',
-                url: 'https://play.google.com/store/apps/details?id=com.github.haorendashu.nostrmo',
-                description: 'An Android client built on the Nostr open source protocol.'
-            },
-            {
-                title: 'Plebstr',
-                url: 'https://play.google.com/store/apps/details?id=com.plebstr.client',
-                description: 'A friendly Nostr client, reimagined.'
-            }
-        ]
     },
     {
         title: 'iOS',
@@ -48,11 +27,6 @@ export const joinLinks: App.LinkList[] = [
                 title: 'Damus',
                 url: 'https://damus.io/',
                 description: 'The social network you control.'
-            },
-            {
-                title: 'Iris',
-                url: 'https://apps.apple.com/us/app/iris-the-nostr-client/id1665849007',
-                description: 'The Nostr client for better social networks.'
             },
             {
                 title: 'Nos',
@@ -69,17 +43,6 @@ export const joinLinks: App.LinkList[] = [
                 url: 'https://nostur.com',
                 description: 'A feature packed iOS client.'
             },
-            {
-                title: 'Plebstr',
-                url: 'https://apps.apple.com/app/plebstr-nostr-client/id1666230916',
-                description: 'A friendly Nostr client, reimagined.'
-            },
-            {
-                title: 'Sideus',
-                url: 'https://sideus.app/',
-                description:
-                    'A zap-enabled fork of Damus, available as a sideloaded app on the iPhone.'
-            }
         ]
     },
     {
